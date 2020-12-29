@@ -1,0 +1,94 @@
+.nav-bar {
+    background-color: rgba(255, 213, 249, 0);
+    height: 6vw;
+    width: 100vw;
+    position: absolute;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
+  #portfolio-logo {
+    position: absolute;
+    left: 12vw;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+#portfolio-logo:hover {
+    cursor: pointer;
+}
+#bw {
+    width: 6vw;
+    margin-right: 1vw;
+    margin-top: 0.5vw;
+}
+#home-button {
+    position: absolute;
+    top: 2vw;
+    left: 77vw;
+    font-size: 1.5vw;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    border-style: solid;
+    border-width: 0.15vw;
+    border-radius: 2vw;
+    padding-top: 0.2vw;
+    padding-bottom: 0.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    text-decoration: none;
+    box-shadow: -0.075vw -0.075vw 0vw rgb(255,255,255);
+}
+#home-button:hover {
+    cursor: pointer;
+}
+#home-img {
+    width: 5vw;
+}
+#menu-button {
+    position: absolute;
+    top: 1vw;
+    left: 87vw;
+    font-size: 3vw;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    transform: scale(1.25);
+}
+#menu-button:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition-duration: 0.3s;
+}
+#nav-menu {
+    position: absolute;
+    top: 6vw;
+    left: 87vw;
+    font-size: 1.5vw;
+    background-color: rgba(200,200,200,0);
+    border-radius: 1vw;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.1vw;
+}
+.nav-item {
+    text-decoration: none;
+    color: white;
+}
+#nav-menu-projects {
+    margin-top: 0.5vw;
+}
+#nav-menu-about {
+    margin-top: 0.75vw;
+}
+#projects-img {
+    width: 9vw;
+}
+#about-img {
+    width: 8vw;
+}

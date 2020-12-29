@@ -1,12 +1,24 @@
 import React from "react";
-import Giants from "../media/giants-flipped.jpg";
+import Spring from "../media/spring.jpg";
+import Field from "../media/field.mp4";
+import Summer from "../media/dunes.jpg";
+import Fall from "../media/fall.jpg";
+import Winter from "../media/winter.jpg";
+import Golden from "../media/golden.jpg";
+import "../styles/home.scss";
+
+import Backgrounds from "../components/backgrounds";
+import Preview from "../components/preview";
+import Projects from "../components/projects";
 
 class Home extends React.Component {
   render() {
     return (
       <div id="home-page">
-        <img className="home-background" src={Giants} alt="giants causeway mirrored"/>
-      </div>
+        <Backgrounds />
+        <Preview />
+        <Projects />
+        </div>
     );
   };
 }

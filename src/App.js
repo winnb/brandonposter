@@ -3,15 +3,20 @@ import { Router } from "@reach/router"; // Router
 
 // Pages
 import Home from "./pages/home";
+import About from "./pages/about";
 import PageNotFound from "./pages/pagenotfound";
+
+// Components
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="App">
           <div>
-            {/* <NavBar /> */}
+            <Navbar />
             <Router>
               <Home path="/" />
+              <About path="/About" />
               <PageNotFound path="/page-not-found" default />
             </Router>
           </div>
