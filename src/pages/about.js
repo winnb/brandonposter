@@ -4,22 +4,19 @@ import "../styles/about.scss";
 import Waves from "../media/waves.jpg";
 import Banner from "../media/lb-banner.jpg";
 import Brandon from "../media/forest-brandon.jpg";
-import Bio from "../media/bio.JPG";
 import LinkedIn from "../media/linkedin.png";
-import BWFooter from "../media/bw-footer.jpg";
 
-class About extends React.Component {
+class Github extends React.Component {
   render() {
     return (
       <div id="links-page">
         <img className="links-background" src={Waves} alt="abstract coral background" />
-        <img className="home-background" src={BWFooter}/>
         <a href="https://www.linkedin.com/in/brandon-winn/">
-            <img id="linkedin" src={LinkedIn} />
+            <img id="linkedin" src={LinkedIn} alt="LinkedIn profile link"/>
         </a>
         <div id="about-box">
-            <img id="banner" src={Banner} />
-            <img id="brandon" src={Brandon} />
+            <img id="banner" src={Banner} alt="LinkedIn banner" />
+            <img id="brandon" src={Brandon} alt="LinkedIn profile" />
             <div id="bio-text">
                 <div style={{fontSize: "2vw"}}>Brandon Winn</div>
                 <div style={{fontSize: "1vw"}}>Aspiring Software Engineer | Fullstack Developer</div>
@@ -40,4 +37,4 @@ class About extends React.Component {
   };
 }
 
-export default About;
+export default Github;

@@ -48,13 +48,6 @@
     width: 100vw;
     display: block;
 }
-#schedule {
-    position: absolute;
-    transform: scale(0.95);
-    top: 120vw;
-    left: 3vw;
-    width: 94vw;
-}
 #white-bg {
     width: 100vw;
     height: 56.25vw;
@@ -140,41 +133,13 @@
 #conquer-box-s {
     left: 51vw;
 }
-#pooch-box-lg {
-    top: 61vw;
-    left: 50vw;
-}
-#pooch-box-desc {
-    top: 61vw;
-}
-#mvc-box-lg {
-    top: 118vw;
-    left: 50vw;
-}
-#mvc-box-desc {
-    top: 118vw;
-}
-#confidence-box-lg {
-    top: 175vw;
-}
-#confidence-box-desc {
-    top: 175vw;
-    left: 50vw;
-}
-#conquer-box-lg {
-    top: 232vw;
-    left: 50vw;
-}
-#conquer-box-desc {
-    top: 232vw;
-}
-#clipboard {
+#preview-img-orig {
     width: 10vw;
     margin-left: 1.5vw;
     margin-top: 1vw;
     border-radius: 1vw;
 }
-#csharp {
+#preview-img-invert {
     width: 10vw;
     margin-left: 1.5vw;
     margin-top: 1vw;
@@ -195,81 +160,28 @@
     font-size: 1.2vw;
     color: rgb(50,50,50);
 }
-#play {
-    width: 10vw;
-    margin-left: 14.25vw;
-    margin-top: 1vw;
-    border-radius: 1vw;
-}
-#quiz {
-    width: 80%;
-    height: 75%;
-    margin-left: 10%;
-    margin-top: 3%;
-}
-#MT {
-    margin-top: 2vw;
-    margin-left: 2vw;
-    width: 80%;
-    border-radius: 2vw;
-    padding: 1vw;
-    left: 50vw;
-}
-#MT-title {
-    top: 136vw;
-    position: absolute;
-    left: 12vw;
-    font-size: 4vw;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
-    width: 45vw;
-    color: white;
-}
-#TF {
-    margin-top: 2vw;
-    margin-left: 2vw;
-    width: 80%;
-    border-radius: 2vw;
-    padding: 1vw;
-}
-#TF-title {
-    top: 190vw;
-    position: absolute;
-    left: 50vw;
-    font-size: 4vw;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
-    width: 45vw;
-    color: black;
-    text-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
-}
-#W {
-    margin-top: 2vw;
-    margin-left: 2vw;
-    width: 80%;
-    border-radius: 2vw;
-    padding: 1vw;
-}
-#W-title {
-    top: 250vw;
-    position: absolute;
-    left: 20vw;
-    font-size: 4vw;
-    font-weight: 500;
-    font-family: 'Work Sans', sans-serif;
-    width: 40vw;
-    color: white;
-}
-#home-author {
-    position: absolute;
-    top: 290vw;
-    left: 4vw;
-    color: white;
-    font-size: 1vw;
-    font-family: 'Sansita Swashed', cursive;
-}
 .project-desc {
     margin: 2vw;
     font-size: 1.5vw;
     line-height: 2vw;
+}
+#preview-title {
+    position: absolute;
+    width: 100vw;
+    top: 12.5vw;
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.25vw 0.25vw 0vw rgb(100,100,100);
+}
+#preview-subtitle {
+    position: absolute;
+    width: 100vw;
+    top: 17.5vw;
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.15vw 0.15vw 0vw rgb(100,100,100);
 }

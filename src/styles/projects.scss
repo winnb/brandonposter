@@ -1,0 +1,111 @@
+.project-background {
+    width: 100vw;
+    display: block;
+}
+#white-bg {
+    width: 100vw;
+    height: 56.25vw;
+    background-color: rgb(240,240,240);
+}
+.white-box-tall {
+    //position: absolute;
+    left: 11vw;
+    width: 36vw;
+    height: 42vw;
+    background-color: rgb(255,255,255);
+    border-radius: 1vw;
+    box-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
+    text-decoration: none;
+}
+.white-box-tall:hover {
+    box-shadow: 0vw 0.5vw 0.5vw rgb(100,100,100);
+    transform: scale(1.01);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+// #pooch-box-lg {
+//     top: 61vw;
+//     left: 50vw;
+// }
+// #pooch-box-desc {
+//     top: 61vw;
+// }
+// #mvc-box-lg {
+//     top: 118vw;
+//     left: 50vw;
+// }
+// #mvc-box-desc {
+//     top: 118vw;
+// }
+// #confidence-box-lg {
+//     top: 175vw;
+// }
+// #confidence-box-desc {
+//     top: 175vw;
+//     left: 50vw;
+// }
+// #conquer-box-lg {
+//     top: 232vw;
+//     left: 50vw;
+// }
+// #conquer-box-desc {
+//     top: 232vw;
+// }
+#github-img {
+    margin-top: 2vw;
+    margin-left: 2vw;
+    width: 80%;
+    border-radius: 2vw;
+    padding: 1vw;
+}
+.project-desc {
+    margin: 2vw;
+    padding-top: 2vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+#github-panels {
+    position: absolute;
+    top: 23vw;
+}
+.project-panel {
+    height: 56.25vw;
+    width: 100vw;
+    top: 50vw;
+    left: 10vw;
+}
+.github-title {
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.25vw 0.25vw 0vw rgb(100,100,100);
+}
+.github-title-black {
+    font-size: 4vw;
+    color: black;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.25vw 0.25vw 0vw rgb(150,150,150);
+}
+.subpanel-left {
+    margin-left: 11vw;
+    width: 36vw;
+    height: 42vw;
+    background-color: rgb(255,255,255);
+    border-radius: 1vw;
+    box-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
+    text-decoration: none;
+}
+.subpanel-right {
+    margin-top: -44vw;
+    margin-left: 53vw;
+    width: 36vw;
+    height: 42vw;
+    background-color: rgb(255,255,255);
+    border-radius: 1vw;
+    box-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
+    text-decoration: none;
+}
