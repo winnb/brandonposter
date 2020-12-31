@@ -4,7 +4,6 @@ import { Router } from "@reach/router"; // Router
 // Pages
 import Home from "./pages/home";
 import Projects from "./pages/projects";
-import About from "./pages/about";
 import PageNotFound from "./pages/pagenotfound";
 
 // Components
@@ -19,7 +18,6 @@ function App() {
             <Router>
               <Home path="/" />
               <Projects path="/projects" />
-              <About path="/about" />
               <PageNotFound path="/page-not-found" default />
             </Router>
           </div>

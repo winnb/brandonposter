@@ -1,64 +1,18 @@
-.links-background {
+#about-me {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+.about-background {
     width: 100vw;
     display: block;
-}
-#links-author {
-    position: absolute;
-    top: 154vw;
-    left: 2vw;
-    color: white;
-    font-size: 1vw;
-    font-family: 'Sansita Swashed', cursive;
-}
-#links-title {
-    position: absolute;
-    top: 21vw;
-    left: 12vw;
-    font-weight: 500;
-    background-color: rgba(200,200,200,0);
-    color: white;
-    border-radius: 1vw;
-    font-family: 'Work Sans', sans-serif;
-}
-#zoom {
-    font-size: 5vw;
-}
-#ortega-class {
-    margin-top: 5vw;
-    font-size: 2.5vw;
-}
-#environmental {
-    margin-top: 2vw;
-    font-size: 2.5vw;
-}
-.white-box-link {
-    position: absolute;
-    top: 60vw;
-    height: 15vw;
-    width: 38.5vw;
-    background-color: rgb(255,255,255);
-    border-radius: 1vw;
-    box-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
-    text-decoration: none;
 }
 .white-box-lg:hover {
     box-shadow: 0vw 0.5vw 0.5vw rgb(100,100,100);
     transform: scale(1.01);
     transition-duration: 1s;
     cursor: pointer;
-}
-.zoom-text {
-    font-family: 'Fredoka One', cursive;
-    font-size: 3.5vw;
-    letter-spacing: 0.3vw;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 5vw;
-}
-.hidden-link {
-    color: rgba(0, 0, 0, 0);
-    text-align: center;
-    font-size: 2vw;
 }
 #about-box {
     position: absolute;
@@ -94,9 +48,10 @@
 }
 #linkedin {
     position: absolute;
-    top: 52.5vw;
-    width: 3vw;
-    left: 47.5vw;
+    top: 24.5vw;
+    width: 2.5vw;
+    left: 53.5vw;
+    z-index: 1;
 }
 #linkedin:hover {
     cursor: pointer;
