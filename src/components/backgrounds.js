@@ -3,7 +3,7 @@ import "../styles/projects.scss";
 
 import Coral from "../media/coral.jpg";
 import Orange from "../media/orange.jpg";
-import Blue from "../media/blue.jpg";
+import Purple from "../media/purple.jpg";
 import Green from "../media/green.jpg";
 
 class Backgrounds extends React.Component {
@@ -14,7 +14,7 @@ class Backgrounds extends React.Component {
         <div id="white-bg"/>
         <img className="project-background" src={Orange} alt="Abstract background"/>
         <div id="white-bg"/>
-        <img className="project-background" src={Blue} alt="Abstract background"/>
+        <img className="project-background" src={Purple} alt="Abstract background"/>
         <div id="white-bg"/>
         <img className="project-background" src={Green} alt="Abstract background"/>
       </div>

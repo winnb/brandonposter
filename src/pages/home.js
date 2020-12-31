@@ -7,17 +7,18 @@ import React from "react";
 // import Golden from "../media/golden.jpg";
 import "../styles/home.scss";
 
-import Purple from "../media/purple.jpg";
 import Preview from "../components/preview";
 import Blue from "../media/blue.jpg";
+import AboutMe from "../components/aboutme";
+import ColorBlocks from "../components/colorblocks";
 
 class Home extends React.Component {
   render() {
     return (
       <div id="home-page">
-        <img className="home-background" src={Blue} alt="Abstract background"/>
-        <div id="white-bg"/>
-        <Preview />
+        <img className="home-background" src={Blue} alt="Abstract background"/>       
+        <AboutMe/>
+        <ColorBlocks/>
         </div>
     );
   };

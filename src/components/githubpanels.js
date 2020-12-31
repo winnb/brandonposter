@@ -13,7 +13,7 @@ class GithubPanels extends React.Component {
         {/* React.js Pooch Project */}
         <div className="project-panel">
           <div className="github-title">Pooch: A pet care web service</div>
-          <div href="https://github.com/winnb/pooch" className="subpanel-left" id="pooch-box-lg">
+          <div href="https://github.com/winnb/pooch" className="subpanel-left" id="pooch">
             <img id="github-img" src={PoochGit} alt="Github preview"/>
           </div>
           <div className="subpanel-right" id="pooch-box-desc">
@@ -29,7 +29,7 @@ class GithubPanels extends React.Component {
         {/* C# MVC Project */}
         <div className="project-panel">
           <div className="github-title-black">Librarian: A book repository web service</div>
-          <div href="https://github.com/winnb/preview-img-invert-mvc" className="subpanel-left" id="mvc-box-lg">
+          <div href="https://github.com/winnb/preview-img-invert-mvc" className="subpanel-left" id="alexandria">
             <img id="github-img" src={MCVGit} alt="Github preview"/>
           </div>
           <div className="subpanel-right" id="mvc-box-desc">
@@ -43,7 +43,7 @@ class GithubPanels extends React.Component {
         {/* Java Divide and Conquer Project */}
         <div className="project-panel">
           <div className="github-title">Divide & Conquer: Runtime optimization</div>
-          <div className="subpanel-left" id="conquer-box-lg">
+          <div className="subpanel-left" id="divide+conquer">
           <img id="github-img" src={JavaGit} alt="Github preview"/>
           </div>
           <div href="https://github.com/winnb/divide-and-conquer-java" className="subpanel-right" id="conquer-box-desc">
@@ -58,7 +58,7 @@ class GithubPanels extends React.Component {
         {/* Python Confidence Interval Project */}
         <div className="project-panel">
           <div className="github-title-black">Confidence Intervals: Data Visualization</div>
-          <div href="https://github.com/winnb/confidence-interval" className="subpanel-left" id="confidence-box-lg">
+          <div href="https://github.com/winnb/confidence-interval" className="subpanel-left" id="confidence+limits">
             <img id="github-img" src={ConfidenceGit} alt="Github preview"/>
           </div>
           <div className="subpanel-right" id="confidence-box-desc">
@@ -75,7 +75,7 @@ class GithubPanels extends React.Component {
         {/* Restaurant Management Project */}
         <div className="project-panel">
           <div className="github-title">Restaurantuer: SQL database for businesses</div>
-          <div href="https://github.com/winnb/restaurantmanager" className="subpanel-left" id="confidence-box-lg">
+          <div href="https://github.com/winnb/restaurantmanager" className="subpanel-left" id="restaurantuer">
             <img id="github-img" src={ConfidenceGit} alt="Github preview"/>
           </div>
           <div className="subpanel-right" id="confidence-box-desc">
