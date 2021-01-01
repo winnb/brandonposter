@@ -8,7 +8,6 @@
     background-color: rgb(240,240,240);
 }
 .white-box-tall {
-    //position: absolute;
     left: 11vw;
     width: 36vw;
     height: 42vw;
@@ -23,56 +22,48 @@
     transition-duration: 1s;
     cursor: pointer;
 }
-// #pooch-box-lg {
-//     top: 61vw;
-//     left: 50vw;
-// }
-// #pooch-box-desc {
-//     top: 61vw;
-// }
-// #mvc-box-lg {
-//     top: 118vw;
-//     left: 50vw;
-// }
-// #mvc-box-desc {
-//     top: 118vw;
-// }
-// #confidence-box-lg {
-//     top: 175vw;
-// }
-// #confidence-box-desc {
-//     top: 175vw;
-//     left: 50vw;
-// }
-// #conquer-box-lg {
-//     top: 232vw;
-//     left: 50vw;
-// }
-// #conquer-box-desc {
-//     top: 232vw;
-// }
 #github-img {
-    margin-top: 2vw;
-    margin-left: 2vw;
-    width: 80%;
-    border-radius: 2vw;
-    padding: 1vw;
+    width: 32vw;
+    height: 48vw;
+    object-fit: cover;
 }
+#project-img {
+    height: 24vw;
+    margin-right: 32vw;
+    margin-left: 4vw;
+}
+#project-img-invert {
+    height: 24vw;
+    margin-right: 32vw;
+    margin-left: 4vw;
+    filter: invert(0.85);
+}
+// #github-img:hover {
+//     //filter: grayscale(0.5);
+//     transform: scale(1.2);
+//     transition-duration: 0.3s;
+//     border-radius: 1vw;
+// }
 .project-desc {
-    margin: 2vw;
-    padding-top: 2vw;
+    margin-left: 35vw;
     font-size: 1.5vw;
-    line-height: 2vw;
+    line-height: 2.5vw;
+    margin-top: -45vw;
+    margin-right: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #github-panels {
     position: absolute;
-    top: 23vw;
+    top: 20vw;
 }
 .project-panel {
-    height: 56.25vw;
+    height: 50vw;
     width: 100vw;
     top: 50vw;
     left: 10vw;
+    margin-bottom: 6.25vw;
 }
 .github-title {
     font-size: 4vw;
@@ -91,13 +82,16 @@
     text-shadow: 0.25vw 0.25vw 0vw rgb(150,150,150);
 }
 .subpanel-left {
-    margin-left: 11vw;
-    width: 36vw;
-    height: 42vw;
+    margin-left: 18vw;
+    width: 64vw;
+    height: 48vw;
     background-color: rgb(255,255,255);
-    border-radius: 1vw;
+    //border-radius: 1vw;
     box-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .subpanel-right {
     margin-top: -44vw;

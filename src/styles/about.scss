@@ -56,3 +56,17 @@
 #linkedin:hover {
     cursor: pointer;
 }
+#scroll-hint {
+    position: absolute;
+    top: 45vw;
+    left: 77vw;
+    font-size: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+#scroll-hint:hover {
+    transform: scale(1.02);
+    transition-duration: 0.3s;
+}

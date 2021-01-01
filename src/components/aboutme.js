@@ -30,6 +30,7 @@ class AboutMe extends React.Component {
                 <div style={{fontSize: "1vw", marginTop: "1vw", marginLeft: "-25%"}}>Bachelor's degree, Computer Science · (2016 - 2020)</div>
             </div>
         </div>
+        <a id="scroll-hint" href="/#color-blocks">Scroll down to see my projects ▼</a>
       </div>
     );
   };
