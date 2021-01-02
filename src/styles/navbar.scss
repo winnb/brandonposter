@@ -22,6 +22,7 @@
     align-items: center;
     text-decoration: none;
     margin-top: 1vw;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
 }
 #portfolio-logo:hover {
     cursor: pointer;
@@ -35,6 +36,7 @@
     // border-color: white;
     // border-width: 0.03vw;
     border-radius: 0.6vw;
+    filter: drop-shadow(0.1vw 0.1vw 0.1vw rgb(50,50,50));
 }
 #home-button {
     position: absolute;
@@ -64,6 +66,7 @@
     color: white;
     transform: scale(1.25);
     z-index: 1;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
 }
 #menu-button:hover {
     cursor: pointer;
@@ -85,6 +88,7 @@
     padding-top: 5vw;
     padding-left: 2vw;
     z-index: 0;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
 }
 .nav-item {
     text-decoration: none;

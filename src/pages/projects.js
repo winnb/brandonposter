@@ -10,6 +10,7 @@ class Projects extends React.Component {
       <div id="projects-page">
         <Backgrounds />
         <GithubPanels />
+        <a id="home-hint" href="/#color-blocks">◀ Go back home</a>
       </div>
     );
   };

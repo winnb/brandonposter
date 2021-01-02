@@ -23,19 +23,40 @@ class GithubPanels extends React.Component {
       <div id="github-panels">
         {/* React.js Pooch Project */}
         <div className="project-panel">
-          <div className="github-title">Pooch: A pet care web service</div>
+          <div className="project-title">Pooch: A pet care web service</div>
+          <div className="tag-list">
+              <div className="tag">React.js</div>
+              <div className="tag">Web Service</div>
+              <div className="tag">JavaScript</div>
+              <div className="tag">HTML</div>
+              <div className="tag">CSS</div>
+              <div className="tag">Firebase</div>
+              <div className="tag">Git</div>
+              <div className="tag">Agile</div>
+              <div className="tag">SCRUM</div>
+              <div className="tag">Web Design</div>
+          </div>
           <div href="https://github.com/winnb/pooch" className="subpanel-left" id="pooch">
-            <img id="github-img-invert" src={Pooch} alt="Github preview"/>
-              <div id="pooch-box-desc" className="project-desc">I led a team of six members in the design, production, and launch of a pet services web application with 31 user features using React.js. 
+            <img id="project-img-lg" src={Pooch} alt="Github preview"/>
+            
+            <div id="pooch-box-desc" className="project-desc">I led a team of six members in the design, production, and launch of a pet services web application with 31 user features using React.js. 
                 The development process followed industry-standard, Agile methodologies including all SCRUM ceremonies. I led daily SCRUM meetings 
                 where I assigned tasks to team members.
-              </div>
+            </div>
           </div>
         </div>
         
         {/* C# MVC Project */}
         <div className="project-panel">
-          <div className="github-title-black">Librarian: A book repository web service</div>
+          <div className="project-title">Librarian: A book repository web service</div>
+          <div className="tag-list">
+              <div className="tag">C#</div>
+              <div className="tag">ASP.NET Core</div>
+              <div className="tag">WCF</div>
+              <div className="tag">Web Service</div>
+              <div className="tag">MVC</div>
+              <div className="tag">Web API</div>
+          </div>
           <div href="https://github.com/winnb/preview-img-invert-mvc" className="subpanel-left" id="alexandria">
             {/* <img id="github-img" src={MCVGit} alt="Github preview"/> */}
             <img id="project-img-invert" src={Library1} alt="project image"/>
@@ -49,7 +70,12 @@ class GithubPanels extends React.Component {
         
         {/* Java Divide and Conquer Project */}
         <div className="project-panel">
-          <div className="github-title">Divide & Conquer: Runtime optimization</div>
+          <div className="project-title">Divide & Conquer: Runtime optimization</div>
+          <div className="tag-list">
+              <div className="tag">Java</div>
+              <div className="tag">Algorithm</div>
+              <div className="tag">Optimization</div>
+          </div>
           <div href="https://github.com/winnb/divide-and-conquer-java" className="subpanel-left" id="divide+conquer">
             {/* <img id="github-img" src={JavaGit} alt="Github preview"/> */}
             <img id="project-img" src={Conquer1} alt="project image"/>
@@ -63,7 +89,12 @@ class GithubPanels extends React.Component {
         
         {/* Python Confidence Interval Project */}
         <div className="project-panel">
-          <div className="github-title-black">Confidence Intervals: Data Visualization</div>
+          <div className="project-title">Confidence Intervals: Data Visualization</div>
+          <div className="tag-list">
+              <div className="tag">Python</div>
+              <div className="tag">Data View</div>
+              <div className="tag">Stat Analysis</div>
+          </div>
           <div href="https://github.com/winnb/confidence-interval" className="subpanel-left" id="confidence+limits">
             {/* <img id="github-img" src={ConfidenceGit} alt="Github preview"/> */}
             <img id="project-img" src={Confidence1} alt="project image"/>
@@ -77,7 +108,13 @@ class GithubPanels extends React.Component {
 
         {/* Restaurant Management Project */}
         <div className="project-panel">
-          <div className="github-title">Restaurantuer: SQL database for businesses</div>
+          <div className="project-title">Restaurantuer: SQL database for businesses</div>
+          <div className="tag-list">
+              <div className="tag">SQL</div>
+              <div className="tag">MySQL</div>
+              <div className="tag">Database</div>
+              <div className="tag">Data Integrity</div>
+          </div>
           <div href="https://github.com/winnb/restaurantmanager" className="subpanel-left" id="restaurantuer">
             {/* <img id="github-img" src={ConfidenceGit} alt="Github preview"/> */}
             <img id="project-img" src={SQL2} alt="project image"/>
@@ -91,7 +128,14 @@ class GithubPanels extends React.Component {
 
         {/* Baby Weight ML Project */}
         <div className="project-panel">
-          <div className="github-title-black">Maternal: ML model for newborn baby weight</div>
+          <div className="project-title">Maternal: ML model for newborn baby weight</div>
+          <div className="tag-list">
+              <div className="long-tag">Machine Learning</div>
+              <div className="long-tag">Tensor Flow</div>
+              <div className="long-tag">GCP</div>
+              <div className="long-tag">Big Data</div>
+              <div className="long-tag">Cloud Computing</div>
+          </div>
           <div className="subpanel-left" id="maternal">
             <img id="project-img-invert" src={Tensor1} alt="project image"/>
             <img id="project-img-invert" src={Tensor2} alt="project image"/>

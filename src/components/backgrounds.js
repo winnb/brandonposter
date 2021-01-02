@@ -11,12 +11,14 @@ class Backgrounds extends React.Component {
     return (
       <div>
         <img className="project-background" src={Coral} alt="Abstract background"/>
-        <div id="white-bg"/>
+        {/* <div id="white-bg"/> */}
         <img className="project-background" src={Orange} alt="Abstract background"/>
-        <div id="white-bg"/>
+        {/* <div id="white-bg"/> */}
         <img className="project-background" src={Purple} alt="Abstract background"/>
-        <div id="white-bg"/>
+        {/* <div id="white-bg"/> */}
         <img className="project-background" src={Green} alt="Abstract background"/>
+        <img className="project-background" src={Orange} alt="Abstract background"/>
+        <img className="project-background" src={Purple} alt="Abstract background"/>
       </div>
     );
   };

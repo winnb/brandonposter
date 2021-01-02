@@ -3,7 +3,7 @@ import "../styles/footer.scss";
 
 import Mail from "../media/mail.png";
 import LinkedIn from "../media/mini-linkedin.png";
-import BWLogo from "../media/bw-logo.png";
+import BWLogo from "../media/bw-logo-square.png";
 
 class Footer extends React.Component {
   render() {

@@ -22,28 +22,22 @@
     transition-duration: 1s;
     cursor: pointer;
 }
-#github-img {
-    width: 32vw;
-    height: 48vw;
+#project-img-lg {
+    //width: 32vw;
+    height: 40vw;
     object-fit: cover;
 }
 #project-img {
-    height: 24vw;
+    height: 20vw;
     margin-right: 32vw;
     margin-left: 4vw;
 }
 #project-img-invert {
-    height: 24vw;
+    height: 20vw;
     margin-right: 32vw;
     margin-left: 4vw;
     filter: invert(0.85);
 }
-// #github-img:hover {
-//     //filter: grayscale(0.5);
-//     transform: scale(1.2);
-//     transition-duration: 0.3s;
-//     border-radius: 1vw;
-// }
 .project-desc {
     margin-left: 35vw;
     font-size: 1.5vw;
@@ -53,38 +47,76 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
 }
 #github-panels {
     position: absolute;
-    top: 20vw;
+    top: 10vw;
 }
 .project-panel {
     height: 50vw;
     width: 100vw;
-    top: 50vw;
-    left: 10vw;
     margin-bottom: 6.25vw;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
-.github-title {
+.project-title {
     font-size: 4vw;
     color: white;
     text-align: center;
     margin-bottom: 1vw;
     font-family: 'Work Sans', sans-serif;
-    text-shadow: 0.25vw 0.25vw 0vw rgb(100,100,100);
+    text-shadow: 0.2vw 0.2vw 0vw rgb(100,100,100);
 }
-.github-title-black {
-    font-size: 4vw;
-    color: black;
-    text-align: center;
+.tag-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    width: 100vw;
     margin-bottom: 1vw;
-    font-family: 'Work Sans', sans-serif;
-    text-shadow: 0.25vw 0.25vw 0vw rgb(150,150,150);
+    justify-content: center;
+}
+.tag {
+    width: 7vw;
+    background-color: white;
+    margin: 1vw;
+    text-align: center;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+    z-index: 1;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
+    font-weight: 600;
+    font-family: 'Castoro', serif;
+}
+.long-tag {
+    width: 9vw;
+    background-color: white;
+    margin: 1vw;
+    text-align: center;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+    z-index: 1;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
+    font-weight: 600;
+    font-family: 'Castoro', serif;
+}
+.tag:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
 .subpanel-left {
     margin-left: 18vw;
     width: 64vw;
-    height: 48vw;
+    height: 40vw;
     background-color: rgb(255,255,255);
     //border-radius: 1vw;
     box-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
@@ -92,6 +124,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(200,200,200);
 }
 .subpanel-right {
     margin-top: -44vw;
@@ -102,4 +135,22 @@
     border-radius: 1vw;
     box-shadow: 0vw 0.5vw 0.5vw rgb(150,150,150);
     text-decoration: none;
+}
+#home-hint {
+    position: fixed;
+    top: 2vw;
+    left: 2vw;
+    font-size: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
