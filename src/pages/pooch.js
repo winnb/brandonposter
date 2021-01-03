@@ -16,16 +16,16 @@ class Pooch extends React.Component {
           <div className="project-panel">
             <div className="project-title">Pooch: A pet care web service</div>
             <div className="tag-list">
-                <div className="tag">React.js</div>
-                <div className="tag">Web Service</div>
-                <div className="tag">JavaScript</div>
-                <div className="tag">HTML</div>
-                <div className="tag">CSS</div>
-                <div className="tag">Firebase</div>
-                <div className="tag">Git</div>
-                <div className="tag">Agile</div>
-                <div className="tag">SCRUM</div>
-                <div className="tag">Web Design</div>
+                <a href="/projects" className="tag">React.js</a>
+                <a href="/projects" className="tag">Web Service</a>
+                <a href="/projects" className="tag">JavaScript</a>
+                <a href="/projects" className="tag">HTML</a>
+                <a href="/projects" className="tag">CSS</a>
+                <a href="/projects" className="tag">Firebase</a>
+                <a href="/projects" className="tag">Git</a>
+                <a href="/projects" className="tag">Agile</a>
+                <a href="/projects" className="tag">SCRUM</a>
+                <a href="/projects" className="tag">Web Design</a>
             </div>
             <div href="https://github.com/winnb/pooch" className="subpanel-left" id="pooch">
                 <img id="project-img-lg" src={PoochImg} alt="Github preview"/> 

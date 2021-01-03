@@ -17,12 +17,12 @@ class Alexandria extends React.Component {
             <div className="project-panel">
             <div className="project-title">Alexandria: A book repository web service</div>
             <div className="tag-list">
-                <div className="tag">C#</div>
-                <div className="tag">ASP.NET Core</div>
-                <div className="tag">WCF</div>
-                <div className="tag">Web Service</div>
-                <div className="tag">MVC</div>
-                <div className="tag">Web API</div>
+                <a href="/projects" className="tag">C#</a>
+                <a href="/projects" className="tag">ASP.NET Core</a>
+                <a href="/projects" className="tag">WCF</a>
+                <a href="/projects" className="tag">Web Service</a>
+                <a href="/projects" className="tag">MVC</a>
+                <a href="/projects" className="tag">Web API</a>
             </div>
             <div href="https://github.com/winnb/preview-img-invert-mvc" className="subpanel-left" id="alexandria">
                 {/* <img id="github-img" src={MCVGit} alt="Github preview"/> */}

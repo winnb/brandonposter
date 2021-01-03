@@ -17,11 +17,11 @@ class Maternal extends React.Component {
             <div className="project-panel">
             <div className="project-title-black">Maternal: ML model for newborn baby weight</div>
             <div className="tag-list">
-                <div className="long-tag">Machine Learning</div>
-                <div className="long-tag">Tensor Flow</div>
-                <div className="long-tag">GCP</div>
-                <div className="long-tag">Big Data</div>
-                <div className="long-tag">Cloud Computing</div>
+                <a href="/projects" className="long-tag">Machine Learning</a>
+                <a href="/projects" className="long-tag">Tensor Flow</a>
+                <a href="/projects" className="long-tag">GCP</a>
+                <a href="/projects" className="long-tag">Big Data</a>
+                <a href="/projects" className="long-tag">Cloud Computing</a>
             </div>
             <div className="subpanel-left" id="maternal">
                 <img id="project-img-invert" src={Tensor1} alt="project image"/>

@@ -7,8 +7,8 @@ class Tags extends React.Component {
   selectTag(tagName) {
     if (document.getElementById(tagName).style.backgroundColor!=="rgb(40, 40, 40)") {
       document.getElementById(tagName).style.backgroundColor="rgb(40, 40, 40)";
-      document.getElementById(tagName).style.color="white";
-      document.getElementById(tagName).style.textShadow="0.1vw 0.1vw 0.1vw rgb(100, 100, 100)";
+      document.getElementById(tagName).style.color="rgb(210, 210, 210)";
+      document.getElementById(tagName).style.textShadow="0.1vw 0.1vw 0.1vw rgb(60, 60, 60)";
       document.getElementById(tagName).style.boxShadow="0.2vw 0.2vw 0vw rgb(120, 120, 120)";
       document.getElementById("selected-tags").innerText=document.getElementById("selected-tags").innerText+tagName+",";
     }

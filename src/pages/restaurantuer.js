@@ -17,10 +17,10 @@ class Restaurantuer extends React.Component {
             <div className="project-panel">
             <div className="project-title-black">Restaurantuer: SQL database for businesses</div>
             <div className="tag-list">
-                <div className="tag">SQL</div>
-                <div className="tag">MySQL</div>
-                <div className="tag">Database</div>
-                <div className="tag">Data Integrity</div>
+                <a href="/projects" className="tag">SQL</a>
+                <a href="/projects" className="tag">MySQL</a>
+                <a href="/projects" className="tag">Database</a>
+                <a href="/projects" className="tag">Data Integrity</a>
             </div>
             <div href="https://github.com/winnb/restaurantmanager" className="subpanel-left" id="restaurantuer">
                 {/* <img id="github-img" src={ConfidenceGit} alt="Github preview"/> */}

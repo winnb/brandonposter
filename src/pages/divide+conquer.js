@@ -15,11 +15,11 @@ class Divide extends React.Component {
 
             {/* Java Divide and Conquer Project */}
             <div className="project-panel">
-            <div className="project-title">Divide & Conquer: Runtime optimization</div>
+            <div className="project-title">Divide & Conquer: Runtime Optimization</div>
             <div className="tag-list">
-                <div className="tag">Java</div>
-                <div className="tag">Algorithm</div>
-                <div className="tag">Optimization</div>
+                <a href="/projects" className="tag">Java</a>
+                <a href="/projects" className="tag">Algorithm</a>
+                <a href="/projects" className="tag">Optimization</a>
             </div>
             <div href="https://github.com/winnb/divide-and-conquer-java" className="subpanel-left" id="divide+conquer">
                 {/* <img id="github-img" src={JavaGit} alt="Github preview"/> */}

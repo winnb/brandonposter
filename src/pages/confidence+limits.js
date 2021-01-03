@@ -17,9 +17,9 @@ class Confidence extends React.Component {
             <div className="project-panel">
             <div className="project-title-black">Confidence Intervals: Data Visualization</div>
             <div className="tag-list">
-                <div className="tag">Python</div>
-                <div className="tag">Data Visualization</div>
-                <div className="tag">Statistical Analysis</div>
+                <a href="/projects" className="tag">Python</a>
+                <a href="/projects" className="tag">Data Visualization</a>
+                <a href="/projects" className="tag">Statistical Analysis</a>
             </div>
             <div href="https://github.com/winnb/confidence-interval" className="subpanel-left" id="confidence+limits">
                 {/* <img id="github-img" src={ConfidenceGit} alt="Github preview"/> */}
