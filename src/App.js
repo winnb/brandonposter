@@ -4,6 +4,12 @@ import { Router } from "@reach/router"; // Router
 // Pages
 import Home from "./pages/home";
 import Projects from "./pages/projects";
+import Pooch from "./pages/pooch";
+import Restaurantuer from "./pages/restaurantuer";
+import Divide from "./pages/divide+conquer";
+import Confidence from "./pages/confidence+limits";
+import Alexandria from "./pages/alexandria";
+import Maternal from "./pages/maternal";
 import PageNotFound from "./pages/pagenotfound";
 
 // Components
@@ -18,6 +24,12 @@ function App() {
             <Router>
               <Home path="/" />
               <Projects path="/projects" />
+              <Pooch path="/pooch" />
+              <Restaurantuer path="/restaurantuer" />
+              <Divide path="/divide+conquer" />
+              <Confidence path="/confidence+limits" />
+              <Alexandria path="/alexandria" />
+              <Maternal path="/maternal" />
               <PageNotFound path="/page-not-found" default />
             </Router>
           </div>

@@ -9,7 +9,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div id="footer">
-          <div id="footer-block">©2020 Brandon Winn | Software Engineer</div>
+          <div id="footer-block">©2021 Brandon Winn | Software Engineer</div>
           <div id="footer-links">
             <a href="/"><img className="footer-bw" src={BWLogo} alt="initials"/></a>
             <a href="mailto: winnbrandon2@gmail.com"><img className="footer-img" src={Mail} alt="mail icon"/></a>

@@ -1,3 +1,12 @@
+#projects-page {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
 .project-background {
     width: 100vw;
     display: block;
@@ -23,7 +32,6 @@
     cursor: pointer;
 }
 #project-img-lg {
-    //width: 32vw;
     height: 40vw;
     object-fit: cover;
 }
@@ -31,6 +39,11 @@
     height: 20vw;
     margin-right: 32vw;
     margin-left: 4vw;
+}
+#scroll-img {
+    height: 40vw;
+    width: 32vw;
+    overflow: auto;
 }
 #project-img-invert {
     height: 20vw;
@@ -73,6 +86,75 @@
     font-family: 'Work Sans', sans-serif;
     text-shadow: 0.2vw 0.2vw 0vw rgb(100,100,100);
 }
+.project-title-black {
+    font-size: 4vw;
+    color: black;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.2vw 0.2vw 0vw rgb(100,100,100);
+}
+.tag-title {
+    position: absolute;
+    top: 9vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
+}
+.tag-subtitle {
+    position: absolute;
+    top: 14.5vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
+}
+#projects-title {
+    position: absolute;
+    top: 38vw;
+    width: 100vw;
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
+    display: none;
+}
+#all-tags {
+    position: absolute;
+    top: 17vw;
+    left: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    width: 80vw;
+    margin-bottom: 1vw;
+    justify-content: center;
+}
+#all-projects {
+    position: absolute;
+    top: 45vw;
+    left: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    width: 80vw;
+    margin-bottom: 1vw;
+    justify-content: center;
+}
 .tag-list {
     display: flex;
     flex-direction: row;
@@ -82,6 +164,19 @@
     margin-bottom: 1vw;
     justify-content: center;
 }
+#selected-tags {
+    position: absolute;
+    top: 35vw;
+    left: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    width: 80vw;
+    margin-bottom: 1vw;
+    justify-content: center;
+    color: rgba(0,0,0,0);
+}
 .tag {
     width: 7vw;
     background-color: white;
@@ -90,25 +185,69 @@
     padding-top: 0.25vw;
     padding-bottom: 0.25vw;
     box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
-    z-index: 1;
+    z-index: 2;
     text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
     font-weight: 600;
     font-family: 'Castoro', serif;
 }
 .long-tag {
-    width: 9vw;
+    width: 10vw;
     background-color: white;
     margin: 1vw;
     text-align: center;
     padding-top: 0.25vw;
     padding-bottom: 0.25vw;
     box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
-    z-index: 1;
+    z-index: 2;
     text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
     font-weight: 600;
     font-family: 'Castoro', serif;
 }
+.short-tag {
+    width: 5vw;
+    background-color: white;
+    margin: 1vw;
+    text-align: center;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+    z-index: 2;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
+    font-weight: 600;
+    font-family: 'Castoro', serif;
+}
+.preview-box {
+    width: 20vw;
+    height: 17vw;
+    background-color: white;
+    margin: 1vw;
+    text-align: center;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+    z-index: 2;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
+    font-weight: 600;
+    font-family: 'Castoro', serif;
+    display: none;
+    text-decoration: none;
+    color: black;
+}
+.preview-box:hover {
+    transform: scale(1.03);
+    transition-duration: 0.3s;
+}
+.short-tag:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
 .tag:hover {
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.long-tag:hover {
     transform: scale(1.05);
     transition-duration: 0.3s;
     cursor: pointer;
@@ -153,4 +292,70 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
+}
+.box-tag-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 18vw;
+    margin-left: 1vw;
+    margin-right: 1vw
+}
+.project-preview-img {
+    width: 10vw;
+}
+.project-preview-img-invert {
+    width: 10vw;
+    filter: invert(0.85);
+}
+.preview-tag {
+    font-size: 0.5vw;
+    font-family: 'Work Sans', sans-serif;
+    //clip-path: polygon(0 35%, 20% 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
+    background-color: rgb(245,245,245);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    margin: 0.15vw;
+    width: 1.5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.1vw 0.1vw 0vw rgb(150,150,150);
+}
+.preview-tag-long {
+    font-size: 0.5vw;
+    font-family: 'Work Sans', sans-serif;
+    //clip-path: polygon(0 35%, 20% 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
+    background-color: rgb(245,245,245);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    margin: 0.25vw;
+    width: 3.5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.1vw 0.1vw 0vw rgb(150,150,150);
+}
+.preview-tag-xl {
+    font-size: 0.5vw;
+    font-family: 'Work Sans', sans-serif;
+    //clip-path: polygon(0 35%, 20% 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
+    background-color: rgb(245,245,245);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    margin: 0.25vw;
+    width: 5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.1vw 0.1vw 0vw rgb(150,150,150);
 }
