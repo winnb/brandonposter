@@ -18,10 +18,10 @@ class Confidence extends React.Component {
             <div className="project-title-black">Confidence Intervals: Data Visualization</div>
             <div className="tag-list">
                 <a href="/projects" className="tag">Python</a>
-                <a href="/projects" className="tag">Data Visualization</a>
-                <a href="/projects" className="tag">Statistical Analysis</a>
+                <a href="/projects" className="long-tag">Data Visualization</a>
+                <a href="/projects" className="long-tag">Statistical Analysis</a>
             </div>
-            <div href="https://github.com/winnb/confidence-interval" className="subpanel-left" id="confidence+limits">
+            <div className="subpanel-left" id="confidence+limits">
                 {/* <img id="github-img" src={ConfidenceGit} alt="Github preview"/> */}
                 <img id="project-img" src={Confidence1} alt="project image"/>
                 <img id="project-img-invert" src={Confidence2} alt="project image"/>
@@ -29,6 +29,7 @@ class Confidence extends React.Component {
                 Mean and confidence intervals are graphed for 95% confidence levels and 99% confidence levels. A random sample mean is selected and the program 
                 determines whether the true mean is contained within such a confidence interval.
                 </div>
+                <a href="https://github.com/winnb/confidence-interval" className="github-button">See Github</a>
             </div>
             </div>
    

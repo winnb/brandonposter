@@ -24,7 +24,7 @@ class Alexandria extends React.Component {
                 <a href="/projects" className="tag">MVC</a>
                 <a href="/projects" className="tag">Web API</a>
             </div>
-            <div href="https://github.com/winnb/preview-img-invert-mvc" className="subpanel-left" id="alexandria">
+            <div  className="subpanel-left" id="alexandria">
                 {/* <img id="github-img" src={MCVGit} alt="Github preview"/> */}
                 <img id="project-img-invert" src={Library1} alt="project image"/>
                 <img id="project-img-invert" src={Library2} alt="project image"/>
@@ -32,6 +32,7 @@ class Alexandria extends React.Component {
                 pattern to organize the code. The code for the user interface is contained within the view, the program operations are contained within the controllers, and the 
                 business logic is contained within the model.
                 </div>
+                <a href="https://github.com/winnb/alexandria" className="github-button">See Github</a>
             </div>
             </div>
    

@@ -33,6 +33,7 @@ class Pooch extends React.Component {
                     The development process followed industry-standard, Agile methodologies including all SCRUM ceremonies. I led daily SCRUM meetings 
                     where I assigned tasks to team members.
                 </div>
+                <a href="https://github.com/winnb/pooch" className="github-button">See Github</a>
             </div>
           </div>
    

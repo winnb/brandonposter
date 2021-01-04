@@ -237,6 +237,37 @@
     text-decoration: none;
     color: black;
 }
+.github-button {
+    position: absolute;
+    top: 46vw;
+    left: 60vw;
+    width: 7vw;
+    background-color: rgb(40,40,40);
+    margin: 1vw;
+    text-align: center;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+    z-index: 2;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(60,60,60);
+    font-weight: 600;
+    font-family: 'Castoro', serif;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+    text-decoration: none;
+    color: white;
+}
+.github-button:hover {
+    background-color: black;
+    color: rgb(210,210,210);
+    box-shadow: 0.2vw 0.2vw 0vw rgb(100,100,100);
+    border-color: rgb(100,100,100);
+    transform: scale(1.01);
+    transition-duration: 0.3s;
+}
 .preview-box {
     width: 20vw;
     height: 17vw;

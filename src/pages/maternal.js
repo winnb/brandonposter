@@ -30,6 +30,7 @@ class Maternal extends React.Component {
                 certain factors like age of the mother, sex, how many weeks of gestation have occurred, the presence of twins, and more. I created this tool to help medical 
                 professionals assess the health of a newborn.
                 </div>
+                {/* <a href="" className="github-button">See Github</a> */}
             </div>
             </div>
    

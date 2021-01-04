@@ -22,13 +22,14 @@ class Restaurantuer extends React.Component {
                 <a href="/projects" className="tag">Database</a>
                 <a href="/projects" className="tag">Data Integrity</a>
             </div>
-            <div href="https://github.com/winnb/restaurantmanager" className="subpanel-left" id="restaurantuer">
+            <div  className="subpanel-left" id="restaurantuer">
                 {/* <img id="github-img" src={ConfidenceGit} alt="Github preview"/> */}
                 <div id="scroll-img"><img id="project-img-lg" src={SQL2} alt="project image"/></div>
                 <div id="confidence-box-desc" className="project-desc">I created a SQL database for a restaurant to manage their in-person and online orders, menu items, rewards program, 
                 corporate clients, and table logistics. I designed the UML diagram which shows the dependencies and integrity contraints of the tables. I wrote thousands of 
                 CREATE and INSERT statements to add and populate tables in the database.
                 </div>
+                <a href="https://github.com/winnb/restaurantmanager" className="github-button">See Github</a>
             </div>
             </div>
    

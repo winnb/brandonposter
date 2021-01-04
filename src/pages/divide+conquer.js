@@ -21,7 +21,7 @@ class Divide extends React.Component {
                 <a href="/projects" className="tag">Algorithm</a>
                 <a href="/projects" className="tag">Optimization</a>
             </div>
-            <div href="https://github.com/winnb/divide-and-conquer-java" className="subpanel-left" id="divide+conquer">
+            <div  className="subpanel-left" id="divide+conquer">
                 {/* <img id="github-img" src={JavaGit} alt="Github preview"/> */}
                 <img id="project-img" src={Conquer1} alt="project image"/>
                 <img id="project-img-invert" src={Conquer2} alt="project image"/>
@@ -29,6 +29,7 @@ class Divide extends React.Component {
                 recursively breaks down tasks into subtasks until each one can be completed with a time complexity of O(1) and the entire task finishes in O(nlogn).
                 This application can be used to reduce the runtime of pipeline workloads, freeing up resources and increasing the quality experience for end users.
                 </div>
+                <a href="https://github.com/winnb/divide-and-conquer-java" className="github-button">See Github</a>
             </div>
             </div>
    
