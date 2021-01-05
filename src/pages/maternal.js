@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/projects.scss";
 
-import Tensor1 from "../media/tensorflow-screen.png";
-import Tensor2 from "../media/tensorflow-screen-3.png";
 import Sapphire from "../media/sapphire.jpg";
+
+import Slideshow from "../slideshows/slideshow-maternal";
 
 class Maternal extends React.Component {
   render() {
@@ -24,11 +24,11 @@ class Maternal extends React.Component {
                 <a href="/projects" className="long-tag">Cloud Computing</a>
             </div>
             <div className="subpanel-left" id="maternal">
-                <img id="project-img-invert" src={Tensor1} alt="project image"/>
-                <img id="project-img-invert" src={Tensor2} alt="project image"/>
-                <div id="confidence-box-desc" className="project-desc">I designed, trained, and deployed a machine learning model which predicts a newborn baby's weight given 
-                certain factors like age of the mother, sex, how many weeks of gestation have occurred, the presence of twins, and more. I created this tool to help medical 
-                professionals assess the health of a newborn.
+                <Slideshow/>
+                <div id="confidence-box-desc" className="project-desc">
+                I designed, trained, and deployed a deep neural network (DNN) machine learning model which predicts a newborn baby's weight given 
+                factors like mother's age, weeks of gestation, the presence of twins, and baby's sex. I created this tool as part of a certification 
+                offered by Google. This model can be used to assist medical professionals in estimating baby weight with a data-backed solution.
                 </div>
                 {/* <a href="" className="github-button">See Github</a> */}
             </div>

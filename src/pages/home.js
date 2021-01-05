@@ -7,7 +7,6 @@ import React from "react";
 // import Golden from "../media/golden.jpg";
 import "../styles/home.scss";
 
-import Preview from "../components/preview";
 import Blue from "../media/blue.jpg";
 import AboutMe from "../components/aboutme";
 import ColorBlocks from "../components/colorblocks";

@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/projects.scss";
 
-import Library1 from "../media/c-mvc-screen.png";
-import Library2 from "../media/c-mvc-screen-2.png";
 import Coral from "../media/coral.jpg";
+import Slideshow from "../slideshows/slideshow-alexandria";
 
 class Alexandria extends React.Component {
+  
   render() {
     return (
       <div>
@@ -25,9 +25,7 @@ class Alexandria extends React.Component {
                 <a href="/projects" className="tag">Web API</a>
             </div>
             <div  className="subpanel-left" id="alexandria">
-                {/* <img id="github-img" src={MCVGit} alt="Github preview"/> */}
-                <img id="project-img-invert" src={Library1} alt="project image"/>
-                <img id="project-img-invert" src={Library2} alt="project image"/>
+                <Slideshow/>
                 <div id="mvc-box-desc" className="project-desc">I created a web service for users to view an online library's database of books written in C# ASP.NET Core. The application uses an MVC 
                 pattern to organize the code. The code for the user interface is contained within the view, the program operations are contained within the controllers, and the 
                 business logic is contained within the model.
@@ -35,7 +33,6 @@ class Alexandria extends React.Component {
                 <a href="https://github.com/winnb/alexandria" className="github-button">See Github</a>
             </div>
             </div>
-   
         </div>
       </div>
     );

@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/projects.scss";
 
-import PoochImg from "../media/pooch-portrait.png";
+import PoochImg from "../media/pooch-home.jpg";
 import Waves from "../media/waves.jpg";
+import Slideshow from "../slideshows/slideshow-pooch";
 
 class Pooch extends React.Component {
   render() {
@@ -28,7 +29,8 @@ class Pooch extends React.Component {
                 <a href="/projects" className="tag">Web Design</a>
             </div>
             <div href="https://github.com/winnb/pooch" className="subpanel-left" id="pooch">
-                <img id="project-img-lg" src={PoochImg} alt="Github preview"/> 
+                {/* <img id="project-img-lg" src={PoochImg} alt="Github preview"/>  */}
+                <Slideshow/>
                 <div id="pooch-box-desc" className="project-desc">I led a team of six members in the design, production, and launch of a pet services web application with 31 user features using React.js. 
                     The development process followed industry-standard, Agile methodologies including all SCRUM ceremonies. I led daily SCRUM meetings 
                     where I assigned tasks to team members.

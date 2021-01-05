@@ -12,9 +12,9 @@ class ColorBlocks extends React.Component {
   render() {
     return (
       <div id="color-blocks">
-          <a href="/restaurantuer" className="color-block yellow-block">
+          <a href="/Restaurateur" className="color-block yellow-block">
             <img className="block-img" id="takeout" src={Takeout} alt="takeout"/>
-            <div className="color-block-text-1">Restaurantuer</div>
+            <div className="color-block-text-1">Restaurateur</div>
             <div className="color-block-text-1" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-1" style={{marginTop: "4vw"}}>A SQL database for managing a small business</div>
           </a>

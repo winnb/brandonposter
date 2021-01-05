@@ -328,6 +328,7 @@
     text-decoration: none;
 }
 #home-hint {
+    z-index: 5;
     position: fixed;
     top: 2vw;
     left: 2vw;
@@ -356,6 +357,9 @@
 .project-preview-img {
     width: 10vw;
 }
+.project-preview-img-lg {
+    width: 18vw;
+}
 .project-preview-img-invert {
     width: 10vw;
     filter: invert(0.85);
@@ -369,7 +373,7 @@
     padding-right: 0.5vw;
     padding-top: 0.25vw;
     padding-bottom: 0.25vw;
-    margin: 0.15vw;
+    margin: 0.25vw;
     width: 1.5vw;
     border-radius: 1vw;
     border-style: solid;

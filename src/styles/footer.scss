@@ -3,16 +3,18 @@
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
-}
-#footer-block {
     height: 8vw;
     width: 100vw;
     background-color: black;
+    z-index: 1;
+}
+#footer-block {
     font-size: 0.75vw;
     font-family: 'Castoro', serif;
     color: white;
     padding-left: 3vw;
     padding-top: 4vw;
+    z-index: 2;
 }
 .footer-img {
     width: 1.5vw;
@@ -23,10 +25,11 @@
 #footer-links {
     display: flex;
     flex-direction: row;
-    margin-top: -8vw;
-    width: 100vw;
+    margin-top: -2vw;
+    width: 15vw;
     margin-left: 43vw;
     color: white;
+    z-index: 2;
 }
 .footer-bw {
     width: 2.5vw;

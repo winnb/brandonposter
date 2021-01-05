@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/projects.scss";
 
-import Library from "../media/c-mvc-screen.png";
+import Alexandria from "../media/alexandria-preview.jpg";
 import Confidence from "../media/python-screen-2.png";
-import Divide from "../media/java-screen-2.png";
-import Maternal from "../media/tensorflow-screen-2.png";
-import Pooch from "../media/pooch-screen.png";
+import Divide from "../media/divide+conquer.jpg";
+import Maternal from "../media/1-baby-weight-estimator.jpg";
+import Pooch from "../media/pooch-preview.jpg";
 import SQL from "../media/sql-screen-3.png";
 
 class ProjectPreviews extends React.Component {
@@ -16,7 +16,7 @@ class ProjectPreviews extends React.Component {
           {/* Alexandria Project Preview */}
           <a href="/alexandria" className="preview-box" id="C#,ASP.NET Core,WCF,Web Service,MVC,Web API">
             <div>Alexandria</div>
-            <img className="project-preview-img-invert" src={Library} alt="project preview"/>
+            <img className="project-preview-img-lg" style={{filter: "invert(0.85)"}} src={Alexandria} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag">C#</div>
               <div className="preview-tag-long">ASP.NET Core</div>
@@ -39,7 +39,7 @@ class ProjectPreviews extends React.Component {
           {/* Divide & Conquer Project Preview */}
           <a href="/divide+conquer" className="preview-box" id="Java,Algorithm,Optimization">
             <div>Divide & Conquer</div>
-            <img className="project-preview-img-invert" src={Divide} alt="project preview"/>
+            <img className="project-preview-img-lg" src={Divide} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">Java</div>
               <div className="preview-tag-long">Algorithm</div>
@@ -49,7 +49,7 @@ class ProjectPreviews extends React.Component {
           {/* Maternal Project Preview */}
           <a href="/maternal" className="preview-box" id="Machine Learning,Tensor Flow,GCP,Big Data,Cloud Computing">
             <div>Maternal</div>
-            <img className="project-preview-img-invert" src={Maternal} alt="project preview"/>
+            <img className="project-preview-img-lg" src={Maternal} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-xl">Machine Learning</div>
               <div className="preview-tag-long">Tensor Flow</div>
@@ -61,7 +61,7 @@ class ProjectPreviews extends React.Component {
           {/* Pooch Project Preview */}
           <a href="/pooch" className="preview-box" id="React.js,Web Service,JavaScript,HTML,CSS,Firebase,Git,Agile,SCRUM,Web Design">
             <div>Pooch</div>
-            <img className="project-preview-img" src={Pooch} alt="project preview"/>
+            <img className="project-preview-img-lg" src={Pooch} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">React.js</div>
               <div className="preview-tag-long">Web Service</div>
@@ -75,9 +75,9 @@ class ProjectPreviews extends React.Component {
               <div className="preview-tag-long">Web Design</div>
             </div>
           </a>
-          {/* Restaurantuer Project Preview */}
-          <a href="/restaurantuer" className="preview-box" id="SQL,MySQL,Database,Data Integrity">
-            <div>Restaurantuer</div>
+          {/* Restaurateur Project Preview */}
+          <a href="/Restaurateur" className="preview-box" id="SQL,MySQL,Database,Data Integrity">
+            <div>Restaurateur</div>
             <img className="project-preview-img" src={SQL} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">SQL</div>
