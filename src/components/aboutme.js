@@ -20,10 +20,11 @@ class AboutMe extends React.Component {
                 <div style={{fontSize: "1vw"}}>Aspiring Software Engineer | Fullstack Developer</div>
                 <div style={{fontSize: "1vw", color: "rgb(210,210,210)"}}>Long Beach, California, United States</div>
                 <div style={{fontSize: "1.5vw", marginTop: "1vw", marginLeft: "-25%"}}>Summary</div>
-                <div style={{fontSize: "1vw", marginTop: "1vw", marginLeft: "-25%", marginRight: "20%"}}>I'm an aspiring Software Engineer with a background in web
-                applications. I have experience building front-end designs, as well as
-                working with internal and third-party APIs. My goal is to help people
-                build solutions for tomorrow while working alongside great people!</div>
+                <div style={{fontSize: "1vw", marginTop: "1vw", marginLeft: "-25%", marginRight: "20%"}}>
+                I'm an aspiring Software Engineer with a background in web applications, machine learning, and software development. 
+                I have experience working in and leading Agile teams. Some of my best projects are creating a deep neural network for 
+                healthcare workers and leading a team in the creation of a pet car web application from concept to MVP. My goal is to 
+                help people build solutions for tomorrow!</div>
                 <div style={{fontSize: "1.5vw", marginTop: "1vw", marginLeft: "-20%"}}>—</div>
                 <div style={{fontSize: "1.5vw", marginTop: "1vw", marginLeft: "-25%"}}>Education</div>
                 <div style={{fontSize: "1vw", marginTop: "1vw", marginLeft: "-25%"}}>California State University, Long Beach</div>
