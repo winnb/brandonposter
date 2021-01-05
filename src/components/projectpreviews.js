@@ -3,6 +3,7 @@ import "../styles/projects.scss";
 
 import Alexandria from "../media/alexandria-preview.jpg";
 import Confidence from "../media/python-screen-2.png";
+import Outliers from "../media/confidence-outliers.jpg";
 import Divide from "../media/divide+conquer.jpg";
 import Maternal from "../media/1-baby-weight-estimator.jpg";
 import Pooch from "../media/pooch-preview.jpg";
@@ -29,7 +30,7 @@ class ProjectPreviews extends React.Component {
           {/* Confidence Interval Project Preview */}
           <a href="/confidence_limits" className="preview-box" id="Python,Data Visualization,Statistical Analysis">
             <div>Confidence Limits</div>
-            <img className="project-preview-img-invert" src={Confidence} alt="project preview"/>
+            <img className="project-preview-img-lg" src={Outliers} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">Python</div>
               <div className="preview-tag-xl">Data Visualization</div>
