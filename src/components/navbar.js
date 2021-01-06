@@ -5,7 +5,7 @@ import BWLogo from "../media/bw-logo-square.png";
 class NavBar extends React.Component {
 
   componentDidMount() {
-    document.getElementById("nav-menu").style.opacity = 0;
+    document.getElementById("nav-menu").style.opacity = 100;
   }
 
   openMenu() {

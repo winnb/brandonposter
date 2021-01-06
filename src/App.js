@@ -10,6 +10,9 @@ import Divide from "./pages/divide+conquer";
 import Confidence from "./pages/confidence+limits";
 import Alexandria from "./pages/alexandria";
 import Maternal from "./pages/maternal";
+import OrtegaTime from "./pages/ortegatime";
+import DDoS from "./pages/ddos";
+import Shuffle from "./pages/shuffle";
 import PageNotFound from "./pages/pagenotfound";
 
 // Components
@@ -30,6 +33,9 @@ function App() {
               <Confidence path="/confidence+limits" />
               <Alexandria path="/alexandria" />
               <Maternal path="/maternal" />
+              <OrtegaTime path="/ortega+time" />
+              <DDoS path="/ddos" />
+              <Shuffle path="/shuffle" />
               <PageNotFound path="/page-not-found" default />
             </Router>
           </div>

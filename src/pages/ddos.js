@@ -1,28 +1,31 @@
 import React from "react";
 import "../styles/projects.scss";
 
-import Teal from "../media/teal.jpg";
-import Slideshow from "../slideshows/slideshow-maternal";
+import Liver from "../media/liver.jpg";
 
-class Maternal extends React.Component {
+import Slideshow from "../slideshows/slideshow-ddos";
+
+class DDoS extends React.Component {
   render() {
     return (
       <div>
-        <img className="project-background" src={Teal} alt="Abstract background"/>  
+        <img className="project-background" src={Liver} alt="Abstract background"/>  
         <a id="home-hint" href="/#color-blocks">◀ Go back home</a>
         <div id="github-panels">
 
-            {/* Baby Weight ML Project */}
+            {/* DDoS Project */}
             <div className="project-panel">
-            <div className="project-title">Maternal: ML model for newborn baby weight</div>
+            <div className="project-title">Website Killer: Denial of service cyberattack</div>
             <div className="tag-list">
-                <a href="/projects" className="long-tag">Machine Learning</a>
-                <a href="/projects" className="long-tag">Tensor Flow</a>
-                <a href="/projects" className="long-tag">GCP</a>
-                <a href="/projects" className="long-tag">Big Data</a>
-                <a href="/projects" className="long-tag">Cloud Computing</a>
+                <a href="/projects" className="long-tag">Cyber Security</a>
+                <a href="/projects" className="long-tag">Data Integrity</a>
+                <a href="/projects" className="long-tag">Denial of Service</a>
+                <a href="/projects" className="long-tag">Distributed Networks</a>
+                <a href="/projects" className="long-tag">Firebase</a>
+                <a href="/projects" className="long-tag">Java</a>
+                <a href="/projects" className="long-tag">Virtual Machine</a>
             </div>
-            <div className="subpanel-left" id="maternal">
+            <div className="subpanel-left" id="DDoS">
                 <Slideshow/>
                 <div id="confidence-box-desc" className="project-desc">
                 I designed, trained, and deployed a deep neural network (DNN) machine learning model which predicts a newborn baby's weight given 
@@ -39,4 +42,4 @@ class Maternal extends React.Component {
   };
 }
 
-export default Maternal;
+export default DDoS;

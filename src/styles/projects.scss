@@ -9,6 +9,7 @@
 }
 .project-background {
     width: 100vw;
+    height: 110vw;
     display: block;
 }
 #white-bg {
@@ -120,7 +121,7 @@
 }
 #projects-title {
     position: absolute;
-    top: 38vw;
+    top: 43vw;
     width: 100vw;
     text-align: center;
     font-size: 4vw;
@@ -145,7 +146,7 @@
 }
 #all-projects {
     position: absolute;
-    top: 45vw;
+    top: 50vw;
     left: 10vw;
     display: flex;
     flex-direction: row;
@@ -198,7 +199,7 @@
     color: black;
 }
 .long-tag {
-    width: 10vw;
+    width: 10.5vw;
     background-color: white;
     margin: 1vw;
     text-align: center;
@@ -270,7 +271,7 @@
 }
 .preview-box {
     width: 20vw;
-    height: 17vw;
+    height: 17.5vw;
     background-color: white;
     margin: 1vw;
     text-align: center;
@@ -408,7 +409,7 @@
     padding-top: 0.25vw;
     padding-bottom: 0.25vw;
     margin: 0.25vw;
-    width: 5vw;
+    width: 5.5vw;
     border-radius: 1vw;
     border-style: solid;
     border-width: 0.1vw;

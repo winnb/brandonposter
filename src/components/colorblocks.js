@@ -7,6 +7,9 @@ import Visualizer from "../media/visualizer.png";
 import Brain from "../media/brain.png";
 import Pie from "../media/pie.png";
 import Takeout from "../media/takeout.png";
+import Apple from "../media/apple.png";
+import Bomber from "../media/bomber.png";
+import Doll from "../media/doll.png";
 
 class ColorBlocks extends React.Component {
   render() {
@@ -24,11 +27,12 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-1" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-1" style={{marginTop: "4vw"}}>A Java runtime optimization algorithm</div>
           </a>
-          <a href="/confidence+limits" className="color-block red-block">
-            <img className="block-img" id="visualizer" src={Visualizer} alt="visualizer" />
-            <div className="color-block-text-1">Confidence Limits</div>
+          <a href="/ortega+time" className="color-block red-block">
+            
+            <img className="block-img" id="apple" src={Apple} alt="apple" />
+            <div className="color-block-text-1">Ortega Time</div>
             <div className="color-block-text-1" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
-            <div className="color-block-text-1" style={{marginTop: "4vw"}}>A Python data visualization tool</div>
+            <div className="color-block-text-1" style={{marginTop: "4vw"}}>A React.js educational tool for distance learning</div>
           </a>
           <a href="/pooch" className="color-block green-block">
             <img className="block-img" id="puppy" src={Puppy} alt="puppy"/>
@@ -48,6 +52,25 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-2" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-2" style={{marginTop: "4vw"}}>A C# library web service</div>
           </a>
+          <a href="/confidence+limits" className="color-block pink-block">
+            <img className="block-img" id="visualizer" src={Visualizer} alt="visualizer" />
+            <div className="color-block-text-3">Confidence Limits</div>
+            <div className="color-block-text-3" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
+            <div className="color-block-text-3" style={{marginTop: "4vw"}}>A Python data visualization tool</div>
+          </a>
+          <a href="/shuffle" className="color-block lime-block">
+            <img className="block-img-tall" id="doll" src={Doll} alt="takeout"/>
+            <div className="color-block-text-3">Shuffle</div>
+            <div className="color-block-text-3" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
+            <div className="color-block-text-3" style={{marginTop: "4vw"}}>A C++ generic sorting algorithm</div>
+          </a>
+          <a href="/ddos" className="color-block sapphire-block">
+            <img className="block-img-lg" id="bomber" src={Bomber} alt="bomber" />
+            <div className="color-block-text-3">Website Killer</div>
+            <div className="color-block-text-3" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
+            <div className="color-block-text-3" style={{marginTop: "4vw"}}>A Java denial of service cyberattack</div>
+          </a>
+          
       </div>
     );
   };

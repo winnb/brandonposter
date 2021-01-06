@@ -47,36 +47,41 @@ class Tags extends React.Component {
   render() {
     return (
         <div id="all-tags">
-            <div className="long-tag" id="React.js" onClick={()=>this.selectTag("React.js")}>React.js</div>
-            <div className="long-tag" id="Web Service" onClick={()=>this.selectTag("Web Service")}>Web Service</div>
-            <div className="long-tag" id="JavaScript" onClick={()=>this.selectTag("JavaScript")}>JavaScript</div>
-            <div className="long-tag" id="HTML" onClick={()=>this.selectTag("HTML")}>HTML</div>
-            <div className="long-tag" id="CSS" onClick={()=>this.selectTag("CSS")}>CSS</div>
-            <div className="long-tag" id="Firebase" onClick={()=>this.selectTag("Firebase")}>Firebase</div>
-            <div className="long-tag" id="Git" onClick={()=>this.selectTag("Git")}>Git</div>
-            <div className="long-tag" id="Agile" onClick={()=>this.selectTag("Agile")}>Agile</div>
-            <div className="long-tag" id="SCRUM" onClick={()=>this.selectTag("SCRUM")}>SCRUM</div>
-            <div className="long-tag" id="Web Design" onClick={()=>this.selectTag("Web Design")}>Web Design</div>
-            <div className="long-tag" id="C#" onClick={()=>this.selectTag("C#")}>C#</div>
-            <div className="long-tag" id="ASP.NET Core" onClick={()=>this.selectTag("ASP.NET Core")}>ASP.NET Core</div>
-            <div className="long-tag" id="WCF" onClick={()=>this.selectTag("WCF")}>WCF</div>
-            <div className="long-tag" id="MVC" onClick={()=>this.selectTag("MVC")}>MVC</div>
-            <div className="long-tag" id="Web API" onClick={()=>this.selectTag("Web API")}>Web API</div>
-            <div className="long-tag" id="Java" onClick={()=>this.selectTag("Java")}>Java</div>
-            <div className="long-tag" id="Algorithm" onClick={()=>this.selectTag("Algorithm")}>Algorithm</div>
-            <div className="long-tag" id="Optimization" onClick={()=>this.selectTag("Optimization")}>Optimization</div>
-            <div className="long-tag" id="Python" onClick={()=>this.selectTag("Python")}>Python</div>
-            <div className="long-tag" id="Data Visualization" onClick={()=>this.selectTag("Data Visualization")}>Data Visualization</div>
-            <div className="long-tag" id="Statistical Analysis" onClick={()=>this.selectTag("Statistical Analysis")}>Statistical Analysis</div>
-            <div className="long-tag" id="SQL" onClick={()=>this.selectTag("SQL")}>SQL</div>
-            <div className="long-tag" id="MySQL" onClick={()=>this.selectTag("MySQL")}>MySQL</div>
-            <div className="long-tag" id="Database" onClick={()=>this.selectTag("Database")}>Database</div>
-            <div className="long-tag" id="Data Integrity" onClick={()=>this.selectTag("Data Integrity")}>Data Integrity</div>
-            <div className="long-tag" id="Machine Learning" onClick={()=>this.selectTag("Machine Learning")}>Machine Learning</div>
-            <div className="long-tag" id="Tensor Flow" onClick={()=>this.selectTag("Tensor Flow")}>Tensor Flow</div>
-            <div className="long-tag" id="GCP" onClick={()=>this.selectTag("GCP")}>GCP</div>
-            <div className="long-tag" id="Big Data" onClick={()=>this.selectTag("Big Data")}>Big Data</div>
-            <div className="long-tag" id="Cloud Computing" onClick={()=>this.selectTag("Cloud Computing")}>Cloud Computing</div>
+          <div className="long-tag" id="Agile" onClick={()=>this.selectTag("Agile")}>Agile</div>
+          <div className="long-tag" id="Algorithm" onClick={()=>this.selectTag("Algorithm")}>Algorithm</div>
+          <div className="long-tag" id="ASP.NET Core" onClick={()=>this.selectTag("ASP.NET Core")}>ASP.NET Core</div>
+          <div className="long-tag" id="Big Data" onClick={()=>this.selectTag("Big Data")}>Big Data</div>
+          <div className="long-tag" id="Cloud Computing" onClick={()=>this.selectTag("Cloud Computing")}>Cloud Computing</div>
+          <div className="long-tag" id="CSS" onClick={()=>this.selectTag("CSS")}>CSS</div>
+          <div className="long-tag" id="Cyber Security" onClick={()=>this.selectTag("Cyber Security")}>Cyber Security</div>
+          <div className="long-tag" id="C++" onClick={()=>this.selectTag("C++")}>C++</div>
+          <div className="long-tag" id="C#" onClick={()=>this.selectTag("C#")}>C#</div>
+          <div className="long-tag" id="Database" onClick={()=>this.selectTag("Database")}>Database</div>
+          <div className="long-tag" id="Data Integrity" onClick={()=>this.selectTag("Data Integrity")}>Data Integrity</div>
+          <div className="long-tag" id="Data Visualization" onClick={()=>this.selectTag("Data Visualization")}>Data Visualization</div>
+          <div className="long-tag" id="Denial of Service" onClick={()=>this.selectTag("Denial of Service")}>Denial of Service</div>
+          <div className="long-tag" id="Distributed Networks" onClick={()=>this.selectTag("Distributed Networks")}>Distributed Networks</div>
+          <div className="long-tag" id="Firebase" onClick={()=>this.selectTag("Firebase")}>Firebase</div>
+          <div className="long-tag" id="GCP" onClick={()=>this.selectTag("GCP")}>GCP</div>
+          <div className="long-tag" id="Git" onClick={()=>this.selectTag("Git")}>Git</div>
+          <div className="long-tag" id="HTML" onClick={()=>this.selectTag("HTML")}>HTML</div>
+          <div className="long-tag" id="Java" onClick={()=>this.selectTag("Java")}>Java</div>
+          <div className="long-tag" id="JavaScript" onClick={()=>this.selectTag("JavaScript")}>JavaScript</div>
+          <div className="long-tag" id="Machine Learning" onClick={()=>this.selectTag("Machine Learning")}>Machine Learning</div>
+          <div className="long-tag" id="MVC" onClick={()=>this.selectTag("MVC")}>MVC</div>
+          <div className="long-tag" id="MySQL" onClick={()=>this.selectTag("MySQL")}>MySQL</div>
+          <div className="long-tag" id="Optimization" onClick={()=>this.selectTag("Optimization")}>Optimization</div>
+          <div className="long-tag" id="Python" onClick={()=>this.selectTag("Python")}>Python</div>
+          <div className="long-tag" id="React.js" onClick={()=>this.selectTag("React.js")}>React.js</div>
+          <div className="long-tag" id="SCRUM" onClick={()=>this.selectTag("SCRUM")}>SCRUM</div>
+          <div className="long-tag" id="SQL" onClick={()=>this.selectTag("SQL")}>SQL</div>
+          <div className="long-tag" id="Statistical Analysis" onClick={()=>this.selectTag("Statistical Analysis")}>Statistical Analysis</div>
+          <div className="long-tag" id="Tensor Flow" onClick={()=>this.selectTag("Tensor Flow")}>Tensor Flow</div>
+          <div className="long-tag" id="Virtual Machine" onClick={()=>this.selectTag("Virtual Machine")}>Virtual Machine</div>
+          <div className="long-tag" id="WCF" onClick={()=>this.selectTag("WCF")}>WCF</div>
+          <div className="long-tag" id="Web API" onClick={()=>this.selectTag("Web API")}>Web API</div>
+          <div className="long-tag" id="Web Design" onClick={()=>this.selectTag("Web Design")}>Web Design</div>
+          <div className="long-tag" id="Web Service" onClick={()=>this.selectTag("Web Service")}>Web Service</div>    
         </div>
     );
   };

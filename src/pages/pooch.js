@@ -1,21 +1,20 @@
 import React from "react";
 import "../styles/projects.scss";
 
-import PoochImg from "../media/pooch-home.jpg";
-import Waves from "../media/waves.jpg";
+import Sapphire from "../media/sapphire.jpg";
 import Slideshow from "../slideshows/slideshow-pooch";
 
 class Pooch extends React.Component {
   render() {
     return (
       <div>
-        <img className="project-background" src={Waves} alt="Abstract background"/>  
+        <img className="project-background" src={Sapphire} alt="Abstract background"/>  
         <a id="home-hint" href="/#color-blocks">◀ Go back home</a>
         <div id="github-panels">
 
           {/* React.js Pooch Project */}
           <div className="project-panel">
-            <div className="project-title">Pooch: A pet care web service</div>
+            <div className="project-title-black">Pooch: A pet care web service</div>
             <div className="tag-list">
                 <a href="/projects" className="tag">React.js</a>
                 <a href="/projects" className="tag">Web Service</a>
