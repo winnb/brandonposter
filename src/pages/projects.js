@@ -10,7 +10,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div id="projects-page">
-        <img className="project-background" src={Purple} alt="Abstract background"/>
+        <img className="project-background" style={{height: "110vw"}} src={Purple} alt="Abstract background"/>
         <a id="home-hint" href="/#color-blocks">◀ Go back home</a> 
         <div className="tag-title">Projects</div>
         <div className="tag-subtitle">Select the tags for projects you'd like to see</div>
