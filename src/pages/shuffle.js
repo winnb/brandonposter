@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/projects.scss";
 
-import Violet from "../media/violet.jpg";
+import Electric from "../media/electric.jpg";
 import Slideshow from "../slideshows/slideshow-shuffle";
 
 class Shuffle extends React.Component {
   render() {
     return (
       <div>
-        <img className="project-background" src={Violet} alt="Abstract background"/>  
+        <img className="project-background" src={Electric} alt="Abstract background"/>  
         <a id="home-hint" href="/#color-blocks">◀ Go back home</a>
         <div id="github-panels">
 
