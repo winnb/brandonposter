@@ -24,9 +24,10 @@ class OrtegaTime extends React.Component {
                 <a href="/projects" className="tag">CSS</a>
                 <a href="/projects" className="tag">Firebase</a>
                 <a href="/projects" className="tag">Git</a>
+                <a href="/projects" className="tag">PowerShell</a>
                 <a href="/projects" className="tag">Web Design</a>
             </div>
-            <div  className="subpanel-left" id="ortega-time">
+            <div  className="subpanel" id="ortega-time">
                 <Slideshow/>
                 <div id="ortega-time-box-desc" className="project-desc">I created a web service which shows students, teachers, and parents which class period is currently 
                 in session at Santa Ana High School. The period lengths change according to the day of the week and accounts for schedule adjustments during holidays 

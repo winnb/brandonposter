@@ -20,7 +20,7 @@ class Divide extends React.Component {
                 <a href="/projects" className="tag">Algorithm</a>
                 <a href="/projects" className="tag">Optimization</a>
             </div>
-            <div  className="subpanel-left" id="divide+conquer">
+            <div  className="subpanel" id="divide+conquer">
                 <Slideshow/>
                 <div id="conquer-box-desc" className="project-desc">I implemented the divide and conquer algorithm in Java. The application 
                 recursively breaks down tasks into subtasks until each one can be completed with a time complexity of O(1) and the entire task finishes in O(nlogn).

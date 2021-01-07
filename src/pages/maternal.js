@@ -22,7 +22,7 @@ class Maternal extends React.Component {
                 <a href="/projects" className="long-tag">Big Data</a>
                 <a href="/projects" className="long-tag">Cloud Computing</a>
             </div>
-            <div className="subpanel-left" id="maternal">
+            <div className="subpanel" id="maternal">
                 <Slideshow/>
                 <div id="confidence-box-desc" className="project-desc">
                 I designed, trained, and deployed a deep neural network (DNN) machine learning model which predicts a newborn baby's weight given 

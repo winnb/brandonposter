@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/projects.scss";
+import "../styles/preview.scss";
 
 import Alexandria from "../media/alexandria-preview.jpg";
 import Outliers from "../media/confidence-outliers.jpg";
@@ -62,7 +62,7 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* Pooch Project Preview */}
-          <a href="/pooch" className="preview-box" id="React.js,Web Service,JavaScript,HTML,CSS,Firebase,Git,Agile,SCRUM,Web Design">
+          <a href="/pooch" className="preview-box" id="React.js,Web Service,JavaScript,HTML,CSS,Firebase,Git,Agile,SCRUM,Web Design,PowerShell">
             <div>Pooch</div>
             <img className="project-preview-img-lg" src={Pooch} alt="project preview"/>
             <div className="box-tag-holder">
@@ -72,6 +72,7 @@ class ProjectPreviews extends React.Component {
               <div className="preview-tag">Git</div>
               <div className="preview-tag-long">HTML</div>
               <div className="preview-tag-long">JavaScript</div>
+              <div className="preview-tag-long">PowerShell</div>
               <div className="preview-tag-long">React.js</div>
               <div className="preview-tag-long">SCRUM</div>
               <div className="preview-tag-long">Web Design</div>
@@ -90,7 +91,7 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* Ortega Time Project Preview */}
-          <a href="/ortega+time" className="preview-box" id="CSS,Firebase,Git,HTML,JavaScript,React.js,Web Design, Web Service">
+          <a href="/ortega+time" className="preview-box" id="CSS,Firebase,Git,HTML,JavaScript,React.js,Web Design,Web Service,PowerShell">
             <div>Ortega Time</div>
             <img className="project-preview-img-lg" src={Ortega} alt="project preview"/>
             <div className="box-tag-holder">
@@ -99,6 +100,7 @@ class ProjectPreviews extends React.Component {
               <div className="preview-tag">Git</div>
               <div className="preview-tag-long">HTML</div>
               <div className="preview-tag-long">JavaScript</div>
+              <div className="preview-tag-long">PowerShell</div>
               <div className="preview-tag-long">React.js</div>
               <div className="preview-tag-long">Web Design</div>
               <div className="preview-tag-long">Web Service</div>
@@ -115,10 +117,11 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* DDoS Project Preview */}
-          <a href="/ddos" className="preview-box" id="Cyber Security,Data Integrity,Distributed Networks,Denial of Service,Firebase,Java,Virtual Machine">
+          <a href="/ddos" className="preview-box" id="Cyber Security,Data Integrity,Distributed Networks,Denial of Service,Firebase,Java,Virtual Machine,Bash">
             <div>Website Killer</div>
             <img className="project-preview-img-lg" src={DDoS} alt="project preview"/>
             <div className="box-tag-holder">
+            <div className="preview-tag">Bash</div>
               <div className="preview-tag-xl">Cyber Security</div>
               <div className="preview-tag-xl">Data Integrity</div>
               <div className="preview-tag-xl">Distributed Networks</div>

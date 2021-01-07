@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/projects.scss";
+import "../styles/tags.scss";
 
 class Tags extends React.Component {
 
@@ -39,9 +39,15 @@ class Tags extends React.Component {
 
     // Check whether any tags are selected and if none, then hide "Matching Projects" title
     if (selectedTags.length>0)
-      document.getElementById("projects-title").style.display="block";
+      document.getElementById("project-preview-title").style.display="block";
     else
-    document.getElementById("projects-title").style.display="none";
+    document.getElementById("project-preview-title").style.display="none";
+
+    //
+    if (document.getElementById("all-projects").scrollHeight>0)
+      document.getElementById("project-background").style.height = (1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight)).toString()+"px";
+    else
+      document.getElementById("project-background").style.height = "60vw";
   }
 
   render() {
@@ -50,6 +56,7 @@ class Tags extends React.Component {
           <div className="long-tag" id="Agile" onClick={()=>this.selectTag("Agile")}>Agile</div>
           <div className="long-tag" id="Algorithm" onClick={()=>this.selectTag("Algorithm")}>Algorithm</div>
           <div className="long-tag" id="ASP.NET Core" onClick={()=>this.selectTag("ASP.NET Core")}>ASP.NET Core</div>
+          <div className="long-tag" id="Bash" onClick={()=>this.selectTag("Bash")}>Bash</div>
           <div className="long-tag" id="Big Data" onClick={()=>this.selectTag("Big Data")}>Big Data</div>
           <div className="long-tag" id="Cloud Computing" onClick={()=>this.selectTag("Cloud Computing")}>Cloud Computing</div>
           <div className="long-tag" id="CSS" onClick={()=>this.selectTag("CSS")}>CSS</div>
@@ -71,6 +78,7 @@ class Tags extends React.Component {
           <div className="long-tag" id="MVC" onClick={()=>this.selectTag("MVC")}>MVC</div>
           <div className="long-tag" id="MySQL" onClick={()=>this.selectTag("MySQL")}>MySQL</div>
           <div className="long-tag" id="Optimization" onClick={()=>this.selectTag("Optimization")}>Optimization</div>
+          <div className="long-tag" id="PowerShell" onClick={()=>this.selectTag("PowerShell")}>PowerShell</div>
           <div className="long-tag" id="Python" onClick={()=>this.selectTag("Python")}>Python</div>
           <div className="long-tag" id="React.js" onClick={()=>this.selectTag("React.js")}>React.js</div>
           <div className="long-tag" id="SCRUM" onClick={()=>this.selectTag("SCRUM")}>SCRUM</div>

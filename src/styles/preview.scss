@@ -1,0 +1,102 @@
+#all-projects {
+    // position: absolute;
+    // top: 50vw;
+    // left: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    width: 80vw;
+    margin-bottom: 1vw;
+    justify-content: center;
+}
+.preview-box {
+    width: 20vw;
+    min-height: 15vw;
+    background-color: white;
+    margin: 1vw;
+    text-align: center;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+    z-index: 2;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
+    font-weight: 600;
+    font-family: 'Castoro', serif;
+    display: none;
+    text-decoration: none;
+    color: black;
+}
+.preview-box:hover {
+    transform: scale(1.03);
+    transition-duration: 0.3s;
+}
+.project-preview-img {
+    width: 10vw;
+}
+.project-preview-img-lg {
+    width: 18vw;
+}
+.project-preview-img-invert {
+    width: 10vw;
+    filter: invert(0.85);
+}
+.preview-tag {
+    font-size: 0.5vw;
+    font-family: 'Work Sans', sans-serif;
+    //clip-path: polygon(0 35%, 20% 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
+    background-color: rgb(245,245,245);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    margin: 0.25vw;
+    width: 1.5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.1vw 0.1vw 0vw rgb(150,150,150);
+}
+.preview-tag-long {
+    font-size: 0.5vw;
+    font-family: 'Work Sans', sans-serif;
+    //clip-path: polygon(0 35%, 20% 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
+    background-color: rgb(245,245,245);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    margin: 0.25vw;
+    width: 3.5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.1vw 0.1vw 0vw rgb(150,150,150);
+}
+.preview-tag-xl {
+    font-size: 0.5vw;
+    font-family: 'Work Sans', sans-serif;
+    //clip-path: polygon(0 35%, 20% 0, 100% 0, 100% 100%, 20% 100%, 0 70%);
+    background-color: rgb(245,245,245);
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.25vw;
+    padding-bottom: 0.25vw;
+    margin: 0.25vw;
+    width: 5.5vw;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.1vw 0.1vw 0vw rgb(150,150,150);
+}
+.box-tag-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 18vw;
+    margin-left: 1vw;
+    margin-right: 1vw
+}

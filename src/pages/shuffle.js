@@ -20,7 +20,7 @@ class Shuffle extends React.Component {
                 <a href="/projects" className="tag">C++</a>
                 <a href="/projects" className="long-tag">Optimization</a>
             </div>
-            <div className="subpanel-left" id="shuffle">
+            <div className="subpanel" id="shuffle">
                 <Slideshow/>
                 <div id="shuffle-box-desc" className="project-desc">I created an application to sort any list of items using one function.
                 The function accepts unsorted numbers, letters, objects, or any other items which can be compared. Objects can be sorted in 

@@ -17,6 +17,7 @@ class DDoS extends React.Component {
             <div className="project-panel">
             <div className="project-title">Website Killer: Denial of service cyberattack</div>
             <div className="tag-list">
+            <a href="/projects" className="tag">Bash</a>
                 <a href="/projects" className="long-tag">Cyber Security</a>
                 <a href="/projects" className="long-tag">Data Integrity</a>
                 <a href="/projects" className="long-tag">Denial of Service</a>
@@ -25,7 +26,7 @@ class DDoS extends React.Component {
                 <a href="/projects" className="long-tag">Java</a>
                 <a href="/projects" className="long-tag">Virtual Machine</a>
             </div>
-            <div className="subpanel-left" id="DDoS">
+            <div className="subpanel" id="DDoS">
                 <Slideshow/>
                 <div id="confidence-box-desc" className="project-desc">
                 I designed, trained, and deployed a deep neural network (DNN) machine learning model which predicts a newborn baby's weight given 

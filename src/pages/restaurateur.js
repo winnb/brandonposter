@@ -21,7 +21,7 @@ class Restaurateur extends React.Component {
                 <a href="/projects" className="tag">Database</a>
                 <a href="/projects" className="tag">Data Integrity</a>
             </div>
-            <div  className="subpanel-left" id="Restaurateur">
+            <div  className="subpanel" id="Restaurateur">
                 {/* <img id="github-img" src={ConfidenceGit} alt="Github preview"/> */}
                 {/* <div id="scroll-img"><img id="project-img-lg" src={SQL2} alt="project image"/></div> */}
                 <Slideshow/>

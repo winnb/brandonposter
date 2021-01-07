@@ -24,7 +24,7 @@ class Alexandria extends React.Component {
                 <a href="/projects" className="tag">MVC</a>
                 <a href="/projects" className="tag">Web API</a>
             </div>
-            <div  className="subpanel-left" id="alexandria">
+            <div  className="subpanel" id="alexandria">
                 <Slideshow/>
                 <div id="mvc-box-desc" className="project-desc">I created a web service for users to view an online library's database of books written in C# ASP.NET Core. The application uses an MVC 
                 pattern to organize the code. The code for the user interface is contained within the view, the program operations are contained within the controllers, and the 
