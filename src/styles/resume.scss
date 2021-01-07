@@ -1,0 +1,41 @@
+#resume-contents {
+    position: absolute;
+    top: 7vw;
+    left: 30vw;
+    width: 35vw;
+    font-size: 0.65vw;
+    font-family: 'Castoro', serif;
+    background-color: white;
+    border-radius: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+.name {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+b {
+    font-size: .75vw;
+    font-weight: 600;
+}
+#home-hint {
+    z-index: 5;
+    position: fixed;
+    top: 2vw;
+    left: 2vw;
+    font-size: 1vw;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0,0,0);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

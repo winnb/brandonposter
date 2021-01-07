@@ -43,6 +43,7 @@ class NavBar extends React.Component {
           <div id="nav-menu" onMouseLeave={this.openMenu}>
             <div id="nav-menu-projects"><a href="/" className="nav-item">Home</a></div>
             <div id="nav-menu-about"><a href="/projects" className="nav-item">Projects</a></div>
+            <div id="nav-menu-about"><a href="/resume" className="nav-item">Resume</a></div>
           </div>
         </nav>
     );

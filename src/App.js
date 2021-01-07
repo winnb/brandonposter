@@ -4,6 +4,7 @@ import { Router } from "@reach/router"; // Router
 // Pages
 import Home from "./pages/home";
 import Projects from "./pages/projects";
+import Resume from "./pages/resume";
 import Pooch from "./pages/pooch";
 import Restaurateur from "./pages/restaurateur";
 import Divide from "./pages/divide+conquer";
@@ -27,6 +28,7 @@ function App() {
             <Router>
               <Home path="/" />
               <Projects path="/projects" />
+              <Resume path="/resume" />
               <Pooch path="/pooch" />
               <Restaurateur path="/Restaurateur" />
               <Divide path="/divide+conquer" />
