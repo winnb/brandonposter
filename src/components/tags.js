@@ -55,6 +55,7 @@ class Tags extends React.Component {
         <div id="all-tags">
           <div className="long-tag" id="Agile" onClick={()=>this.selectTag("Agile")}>Agile</div>
           <div className="long-tag" id="Algorithm" onClick={()=>this.selectTag("Algorithm")}>Algorithm</div>
+          <div className="long-tag" id="Android" onClick={()=>this.selectTag("Android")}>Android</div>
           <div className="long-tag" id="ASP.NET Core" onClick={()=>this.selectTag("ASP.NET Core")}>ASP.NET Core</div>
           <div className="long-tag" id="Bash" onClick={()=>this.selectTag("Bash")}>Bash</div>
           <div className="long-tag" id="Big Data" onClick={()=>this.selectTag("Big Data")}>Big Data</div>
@@ -71,16 +72,20 @@ class Tags extends React.Component {
           <div className="long-tag" id="Firebase" onClick={()=>this.selectTag("Firebase")}>Firebase</div>
           <div className="long-tag" id="GCP" onClick={()=>this.selectTag("GCP")}>GCP</div>
           <div className="long-tag" id="Git" onClick={()=>this.selectTag("Git")}>Git</div>
+          <div className="long-tag" id="Gradle" onClick={()=>this.selectTag("Gradle")}>Gradle</div>
           <div className="long-tag" id="HTML" onClick={()=>this.selectTag("HTML")}>HTML</div>
           <div className="long-tag" id="Java" onClick={()=>this.selectTag("Java")}>Java</div>
           <div className="long-tag" id="JavaScript" onClick={()=>this.selectTag("JavaScript")}>JavaScript</div>
+          <div className="long-tag" id="Kotlin" onClick={()=>this.selectTag("Kotlin")}>Kotlin</div>
           <div className="long-tag" id="Machine Learning" onClick={()=>this.selectTag("Machine Learning")}>Machine Learning</div>
           <div className="long-tag" id="MVC" onClick={()=>this.selectTag("MVC")}>MVC</div>
           <div className="long-tag" id="MySQL" onClick={()=>this.selectTag("MySQL")}>MySQL</div>
+          <div className="long-tag" id="NoSQL" onClick={()=>this.selectTag("NoSQL")}>NoSQL</div>
           <div className="long-tag" id="Optimization" onClick={()=>this.selectTag("Optimization")}>Optimization</div>
           <div className="long-tag" id="PowerShell" onClick={()=>this.selectTag("PowerShell")}>PowerShell</div>
           <div className="long-tag" id="Python" onClick={()=>this.selectTag("Python")}>Python</div>
           <div className="long-tag" id="React.js" onClick={()=>this.selectTag("React.js")}>React.js</div>
+          <div className="long-tag" id="REST API" onClick={()=>this.selectTag("REST API")}>REST API</div>
           <div className="long-tag" id="SCRUM" onClick={()=>this.selectTag("SCRUM")}>SCRUM</div>
           <div className="long-tag" id="SQL" onClick={()=>this.selectTag("SQL")}>SQL</div>
           <div className="long-tag" id="Statistical Analysis" onClick={()=>this.selectTag("Statistical Analysis")}>Statistical Analysis</div>

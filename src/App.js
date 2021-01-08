@@ -14,6 +14,7 @@ import Maternal from "./pages/maternal";
 import OrtegaTime from "./pages/ortegatime";
 import DDoS from "./pages/ddos";
 import Shuffle from "./pages/shuffle";
+import HealthyBelly from "./pages/healthybelly";
 import PageNotFound from "./pages/pagenotfound";
 
 // Components
@@ -38,6 +39,7 @@ function App() {
               <OrtegaTime path="/ortega+time" />
               <DDoS path="/ddos" />
               <Shuffle path="/shuffle" />
+              <HealthyBelly path="/healthy+belly" />
               <PageNotFound path="/page-not-found" default />
             </Router>
           </div>
