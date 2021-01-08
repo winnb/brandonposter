@@ -10,11 +10,13 @@ import Takeout from "../media/takeout.png";
 import Apple from "../media/apple.png";
 import Bomber from "../media/bomber.png";
 import Doll from "../media/doll.png";
+import Bottle from "../media/bottle.png";
 
 class ColorBlocks extends React.Component {
   render() {
     return (
       <div id="color-blocks">
+          {/* Row 1 */}
           <a href="/Restaurateur" className="color-block yellow-block">
             <img className="block-img" id="takeout" src={Takeout} alt="takeout"/>
             <div className="color-block-text-1">Restaurateur</div>
@@ -28,12 +30,12 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-1" style={{marginTop: "4vw"}}>A Java runtime optimization algorithm</div>
           </a>
           <a href="/ortega+time" className="color-block red-block">
-            
             <img className="block-img" id="apple" src={Apple} alt="apple" />
             <div className="color-block-text-1">Ortega Time</div>
             <div className="color-block-text-1" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-1" style={{marginTop: "4vw"}}>A React.js educational tool for distance learning</div>
           </a>
+          {/* Row 2 */}
           <a href="/pooch" className="color-block green-block">
             <img className="block-img" id="puppy" src={Puppy} alt="puppy"/>
             <div className="color-block-text-2">Pooch</div>
@@ -52,6 +54,7 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-2" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-2" style={{marginTop: "4vw"}}>A C# library web service</div>
           </a>
+          {/* Row 3 */}
           <a href="/confidence+limits" className="color-block pink-block">
             <img className="block-img" id="visualizer" src={Visualizer} alt="visualizer" />
             <div className="color-block-text-3">Confidence Limits</div>
@@ -70,7 +73,25 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-3" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-3" style={{marginTop: "4vw"}}>A Java denial of service cyberattack</div>
           </a>
-          
+          {/* Row 4 */}
+          <a href="/healthy+belly" className="color-block yellow-block-2">
+            <img className="block-img-tall" id="bottle" src={Bottle} alt="baby bottle"/>
+            <div className="color-block-text-4">Healthy Belly</div>
+            <div className="color-block-text-4" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
+            <div className="color-block-text-4" style={{marginTop: "4vw"}}>An Android food scanner app</div>
+          </a>
+          <a href="/" className="color-block orange-block">
+            {/* <img className="block-img" id="pie" src={Pie} alt="pie" />
+            <div className="color-block-text-4">Divide and Conquer</div>
+            <div className="color-block-text-4" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
+            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A Java runtime optimization algorithm</div> */}
+          </a>
+          <a href="/" className="color-block red-block">
+            {/* <img className="block-img" id="apple" src={Apple} alt="apple" />
+            <div className="color-block-text-4">Ortega Time</div>
+            <div className="color-block-text-4" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
+            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A React.js educational tool for distance learning</div> */}
+          </a>
       </div>
     );
   };

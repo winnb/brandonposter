@@ -5,7 +5,7 @@
     justify-content: space-around;
     width: 100vw;
     //height: 56.25vw;
-    height: 84.37vw;
+    height: 112.5vw;
     background-color: white;
 }
 .color-block:hover {
@@ -121,6 +121,17 @@
         transition-duration: 0.3s;
     }
 }
+.yellow-block-2 {
+    width: 33.33vw;
+    height: 28.125vw;
+    background-color: rgb(255, 196, 25);
+}
+.yellow-block-2:hover {
+    #bottle {
+        transform: scale(1.25);
+        transition-duration: 0.3s;
+    }
+}
 .block-img {
     width: 10vw;
     margin: 10vw;
@@ -164,4 +175,13 @@
     font-weight: 600;
     position: absolute;
     top: 134vw;
+}
+.color-block-text-4 {
+    color: white;
+    font-size: 1.1vw;
+    margin-left: 3vw;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 162vw;
 }

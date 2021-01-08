@@ -13,7 +13,7 @@ class Projects extends React.Component {
         <img id="project-background" style={{height: "110vw"}} src={Purple} alt="Abstract background"/>
         <a id="home-hint" href="/#color-blocks">◀ Go back home</a>
         <div id="project-page-holder">
-          <div className="tag-title">Projects</div>
+          <div className="tag-title">Search</div>
           <div className="tag-subtitle">Select the tags for projects you'd like to see</div>
           <Tags/>
           <div id="selected-tags"></div>
