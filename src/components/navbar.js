@@ -251,6 +251,66 @@ class NavBar extends React.Component {
       document.getElementById("nav-menu").style.display="none";
       document.getElementById("nav-icon-holder").style.display="block";
     }
+    // Any page for an individual project
+    else {
+      document.getElementsByClassName("project-background")[0].style.height="240vw";
+      document.getElementById("home-hint").style.display="none";
+      // Adjust individual project content
+      document.getElementById("github-panels").style.top="20vw";
+      document.getElementsByClassName("tag-list")[0].style.fontSize="2vw";
+      count = document.getElementsByClassName("tag").length;
+      for (var i=0; i<count; i++) {
+        document.getElementsByClassName("tag")[i].style.width="14vw";
+        document.getElementsByClassName("tag")[i].style.paddingTop="0.75vw";
+        document.getElementsByClassName("tag")[i].style.paddingBottom="0.75vw";
+      }
+      count = document.getElementsByClassName("long-tag").length;
+      for (var i=0; i<count; i++) {
+        document.getElementsByClassName("long-tag")[i].style.width="21vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingTop="0.75vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingBottom="0.75vw";
+      }
+      count = document.getElementsByClassName("short-tag").length;
+      for (var i=0; i<count; i++) {
+        document.getElementsByClassName("short-tag")[i].style.width="10vw";
+        document.getElementsByClassName("short-tag")[i].style.paddingTop="0.75vw";
+        document.getElementsByClassName("short-tag")[i].style.paddingBottom="0.75vw";
+      }
+      document.getElementsByClassName("subpanel")[0].style.marginLeft="5vw";
+      document.getElementsByClassName("subpanel")[0].style.width="90vw";
+      document.getElementsByClassName("subpanel")[0].style.height="110vw";
+      document.getElementsByClassName("project-desc")[0].style.marginLeft="50vw";
+      document.getElementsByClassName("project-desc")[0].style.fontSize="3vw";
+      document.getElementsByClassName("project-desc")[0].style.lineHeight="5vw";
+      if (document.getElementsByClassName("github-button")[0] !== undefined) {
+        document.getElementsByClassName("github-button")[0].style.width="14vw";
+        document.getElementsByClassName("github-button")[0].style.height="2.4vw";
+        document.getElementsByClassName("github-button")[0].style.fontSize="1.4vw";
+        document.getElementsByClassName("github-button")[0].style.marginLeft="60vw";
+        document.getElementsByClassName("github-button")[0].style.marginTop="5vw";
+      }
+      // Adjust slideshow contents
+      document.getElementById("slideshow").style.width="42vw";
+      document.getElementById("slideshow").style.marginTop="20vw";
+      count = document.getElementsByClassName("slide-img").length;
+      for (var i=0; i<count; i++)
+        document.getElementsByClassName("slide-img")[i].style.height="27vw";
+      count = document.getElementsByClassName("slide-img-tall").length;
+      for (var i=0; i<count; i++)
+        document.getElementsByClassName("slide-img-tall")[i].style.height="54vw";
+      count = document.getElementsByClassName("slide-img-phone").length;
+      for (var i=0; i<count; i++)
+        document.getElementsByClassName("slide-img-phone")[i].style.height="54vw";
+      // Adjust footer content
+      document.getElementById("footer").style.height="20vw";
+      // Adjust navbar content
+      document.getElementById("portfolio-logo").style.fontSize="5vw";
+      document.getElementById("portfolio-logo").style.left="6vw";
+      document.getElementById("bw").style.width="6vw";
+      document.getElementById("menu-button").style.display="none";
+      document.getElementById("nav-menu").style.display="none";
+      document.getElementById("nav-icon-holder").style.display="block";
+    }
   }
 
   setDesktopFormat() {
@@ -445,6 +505,66 @@ class NavBar extends React.Component {
         document.getElementsByClassName("preview-tag-xl")[i].style.fontSize="0.5vw";
         document.getElementsByClassName("preview-tag-xl")[i].style.padding="0vw";
       }
+      // Adjust footer content
+      document.getElementById("footer").style.height="8.5vw";
+      // Adjust navbar content
+      document.getElementById("portfolio-logo").style.fontSize="2.5vw";
+      document.getElementById("portfolio-logo").style.left="12vw";
+      document.getElementById("bw").style.width="3.5vw";
+      document.getElementById("menu-button").style.display="block";
+      document.getElementById("nav-menu").style.display="block";
+      document.getElementById("nav-icon-holder").style.display="none"; 
+    }
+    // Any page for an individual project
+    else {
+      document.getElementsByClassName("project-background")[0].style.height="80vw";
+      document.getElementById("home-hint").style.display="block";
+      // Adjust individual project content
+      document.getElementById("github-panels").style.top="10vw";
+      document.getElementsByClassName("tag-list")[0].style.fontSize="1vw";
+      count = document.getElementsByClassName("tag").length;
+      for (var i=0; i<count; i++) {
+        document.getElementsByClassName("tag")[i].style.width="7vw";
+        document.getElementsByClassName("tag")[i].style.paddingTop="0.25vw";
+        document.getElementsByClassName("tag")[i].style.paddingBottom="0.25vw";
+      }
+      count = document.getElementsByClassName("long-tag").length;
+      for (var i=0; i<count; i++) {
+        document.getElementsByClassName("long-tag")[i].style.width="10.5vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingTop="0.25vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingBottom="0.25vw";
+      }
+      count = document.getElementsByClassName("short-tag").length;
+      for (var i=0; i<count; i++) {
+        document.getElementsByClassName("short-tag")[i].style.width="5vw";
+        document.getElementsByClassName("short-tag")[i].style.paddingTop="0.25vw";
+        document.getElementsByClassName("short-tag")[i].style.paddingBottom="0.25vw";
+      }
+      document.getElementsByClassName("subpanel")[0].style.marginLeft="18vw";
+      document.getElementsByClassName("subpanel")[0].style.width="64vw";
+      document.getElementsByClassName("subpanel")[0].style.height="40vw";
+      document.getElementsByClassName("project-desc")[0].style.marginLeft="35vw";
+      document.getElementsByClassName("project-desc")[0].style.fontSize="1.5vw";
+      document.getElementsByClassName("project-desc")[0].style.lineHeight="2.5vw";
+      if (document.getElementsByClassName("github-button")[0] !== undefined) {
+        document.getElementsByClassName("github-button")[0].style.width="7vw";
+        document.getElementsByClassName("github-button")[0].style.height="1.2vw";
+        document.getElementsByClassName("github-button")[0].style.fontSize="0.7vw";
+        document.getElementsByClassName("github-button")[0].style.marginLeft="44vw";
+        document.getElementsByClassName("github-button")[0].style.marginTop="-5vw";
+      }
+      // Adjust slideshow contents
+      document.getElementById("slideshow").style.width="32vw";
+      document.getElementById("slideshow").style.marginTop="0vw";
+      count = document.getElementsByClassName("slide-img").length;
+      for (var i=0; i<count; i++)
+        document.getElementsByClassName("slide-img")[i].style.height="19vw";
+      count = document.getElementsByClassName("slide-img-tall").length;
+      for (var i=0; i<count; i++)
+        document.getElementsByClassName("slide-img-tall")[i].style.height="38vw";
+      count = document.getElementsByClassName("slide-img-phone").length;
+      for (var i=0; i<count; i++)
+        document.getElementsByClassName("slide-img-phone")[i].style.height="38vw";
       // Adjust footer content
       document.getElementById("footer").style.height="8.5vw";
       // Adjust navbar content

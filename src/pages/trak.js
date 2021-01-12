@@ -35,7 +35,7 @@ class Trak extends React.Component {
                 place orders, generate sales reports, and view sales metrics based on product statistics. The application is deployed per 
                 enterprise and supports accounts for multiple users. I worked in a team of four according to Agile methodologies.
                 </div>
-                {/* <a href="/" className="github-button">See Github</a> */}
+                <a href="/" className="github-button" style={{opacity: "0%"}}></a>
             </div>
           </div>
    

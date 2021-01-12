@@ -29,11 +29,12 @@ class DDoS extends React.Component {
             <div className="subpanel" id="DDoS">
                 <Slideshow/>
                 <div id="confidence-box-desc" className="project-desc">
-                I designed, trained, and deployed a deep neural network (DNN) machine learning model which predicts a newborn baby's weight given 
-                factors like mother's age, weeks of gestation, the presence of twins, and baby's sex. I created this tool as part of a certification 
-                offered by Google. This model can be used to assist medical professionals in estimating baby weight with a data-backed solution.
+                I planned, tested, and deployed a DDoS attack which successfully crashed the target website. 
+                I wrote a Bash script to endlessly ping a target as a proof of concept. I wrote a Java program 
+                to which collected the IP address of potential victims. I used Low Orbit Ion Cannon in a VM 
+                to send a huge volume of packets which overwhelmed the victim.
                 </div>
-                {/* <a href="" className="github-button">See Github</a> */}
+                <a href="/" className="github-button" style={{opacity: "0%"}}>See Github</a>
             </div>
             </div>
    

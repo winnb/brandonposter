@@ -29,7 +29,7 @@ class Maternal extends React.Component {
                 factors like mother's age, weeks of gestation, the presence of twins, and baby's sex. I created this tool as part of a certification 
                 offered by Google. This model can be used to assist medical professionals in estimating baby weight with a data-backed solution.
                 </div>
-                {/* <a href="" className="github-button">See Github</a> */}
+                <a href="/" className="github-button" style={{opacity: "0%"}}></a>
             </div>
             </div>
    

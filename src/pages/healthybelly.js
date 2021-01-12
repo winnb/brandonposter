@@ -32,7 +32,7 @@ class HealthyBelly extends React.Component {
                 safe for consumption by pregnant women. The application allows users to set their allergens on their profile and the scanner will alert the user if a 
                 food item is unsafe for them. Google Vision API is used to detect barcodes in images and then they are referenced with an online database.
                 </div>
-                {/* <a href="" className="github-button">See Github</a> */}
+                <a href="/" className="github-button" style={{opacity: "0%"}}></a>
             </div>
             </div>
    
