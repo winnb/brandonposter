@@ -35,7 +35,7 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* Confidence Interval Project Preview */}
-          <a href="/confidence_limits" className="preview-box" id="Python,Data Visualization,Statistical Analysis">
+          <a href="/confidence+limits" className="preview-box" id="Python,Data Visualization,Statistical Analysis">
             <div>Confidence Limits</div>
             <img className="project-preview-img-lg" src={Outliers} alt="project preview"/>
             <div className="box-tag-holder">
@@ -85,7 +85,7 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* Restaurateur Project Preview */}
-          <a href="/Restaurateur" className="preview-box" id="SQL,MySQL,Database,Data Integrity">
+          <a href="/restaurateur" className="preview-box" id="SQL,MySQL,Database,Data Integrity">
             <div>Restaurateur</div>
             <img className="project-preview-img" src={SQL} alt="project preview"/>
             <div className="box-tag-holder">
@@ -137,7 +137,7 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* Healthy Belly Project Preview */}
-          <a href="/healthy+belly" className="preview-box" id="Agile,Android,Database,Firebase,Git,Gradle,Java,Kotlin,NoSQL,SCRUM">
+          <a href="/healthy+belly" className="preview-box" id="Agile,Android,Database,Firebase,Gradle,Java,Kotlin,NoSQL,SCRUM">
             <div>Healthy Belly</div>
             <img className="project-preview-img-lg" src={Belly} alt="project preview"/>
             <div className="box-tag-holder">
@@ -145,7 +145,6 @@ class ProjectPreviews extends React.Component {
               <div className="preview-tag-long">Android</div>
               <div className="preview-tag-long">Database</div>
               <div className="preview-tag-long">Firebase</div>
-              <div className="preview-tag">Git</div>
               <div className="preview-tag">Gradle</div>
               <div className="preview-tag">Java</div>
               <div className="preview-tag-long">Kotlin</div>

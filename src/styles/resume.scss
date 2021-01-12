@@ -39,3 +39,10 @@ b {
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+#resume-holder {
+    position: absolute;
+    top: 8vw;
+    left: 33.3vw;
+    width: 33.3vw;
+    height: 44.5vw;
+}

@@ -6,6 +6,7 @@ import Brandon from "../media/forest-brandon.jpg";
 import LinkedIn from "../media/linkedin.png";
 
 class AboutMe extends React.Component {
+
   render() {
     return (
       <div id="about-me">
@@ -25,8 +26,8 @@ class AboutMe extends React.Component {
                 I have experience working in and leading Agile teams. Some of my best projects are creating a deep neural network for 
                 healthcare workers and leading a team in the creation of a pet care web application from concept to MVP. My goal is to 
                 help people build solutions for tomorrow!</div>
-                <div style={{fontSize: "1.5vw", marginTop: "1vw", marginLeft: "-20%"}}>—</div>
-                <div style={{fontSize: "1.5vw", marginTop: "1vw", marginLeft: "-25%"}}>Education</div>
+                <div style={{fontSize: "1.5vw", marginTop: "0.3vw", marginLeft: "-20%"}}>—</div>
+                <div style={{fontSize: "1.5vw", marginTop: "0.3vw", marginLeft: "-25%"}}>Education</div>
                 <div style={{fontSize: "1vw", marginTop: "1vw", marginLeft: "-25%"}}>California State University, Long Beach</div>
                 <div style={{fontSize: "1vw", marginTop: "1vw", marginLeft: "-25%"}}>Bachelor's degree, Computer Science · (2016 - 2020)</div>
             </div>

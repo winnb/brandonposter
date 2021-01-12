@@ -86,7 +86,7 @@ class ColorBlocks extends React.Component {
             <img className="block-img" id="burger" src={Burger} alt="burger" />
             <div className="color-block-text-4">Grumble</div>
             <div className="color-block-text-4" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
-            <div className="color-block-text-4" style={{marginTop: "4vw"}}>Spring Boot food microservices</div>
+            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A Java Spring Boot food microservice</div>
             
           </a>
           <a href="/trak" className="color-block red-block-2">

@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/resume.scss";
 
 import Crimson from "../media/crimson.jpg";
+import Resume from "../media/brandonwinn-resume.pdf";
 
 class Home extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Home extends React.Component {
       <div id="resume-page">
         <img className="home-background" src={Crimson} alt="Abstract background"/> 
         <a id="home-hint" href="/#color-blocks">◀ Go back home</a>       
-        <div id="resume-contents">
+        {/* <div id="resume-contents">
             <div className="name">Brandon Winn</div>
             <div><b>EMAIL:</b> winnbrandon2@gmail.com <b>PHONE:</b> 916-947-2059 <b>LOCATION:</b> Long Beach, CA</div> 
             <div><b>LINKEDIN:</b> https://www.linkedin.com/in/brandon-winn/</div>
@@ -33,7 +34,10 @@ class Home extends React.Component {
             <div>Led team of 3 individuals in learning new programming skills, maintaining coding best practices, contributing to each other’s code. Learned leadership and communication skills.</div>
             <div><b>Organization:</b> Association for Computing Machinery, Title: Logistics Officer, 8/2018 - 5/2019</div>
             <div>Helped coordinate Beach Hacks 2019 CSULB hackathon. Learned organizational skills, problem solving, and time management.</div> 
-        </div>
+        </div> */}
+        <object id="resume-holder" data={Resume} type="application/pdf">
+            <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
+        </object>
     </div>
     );
   };

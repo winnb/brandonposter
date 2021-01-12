@@ -20,7 +20,6 @@ class HealthyBelly extends React.Component {
                 <a href="/projects" className="tag">Android</a>
                 <a href="/projects" className="tag">Database</a>
                 <a href="/projects" className="tag">Firebase</a>
-                <a href="/projects" className="tag">Git</a>
                 <a href="/projects" className="tag">Gradle</a>
                 <a href="/projects" className="tag">Java</a>
                 <a href="/projects" className="tag">Kotlin</a>
