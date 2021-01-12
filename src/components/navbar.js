@@ -155,6 +155,7 @@ class NavBar extends React.Component {
     // Resume page
     else if (window.location.pathname==="/resume") {
       document.getElementsByClassName("home-background")[0].style.height="240vw";
+      document.getElementById("home-hint").style.display="none";
       // Adjust resume content
       document.getElementById("resume-holder").style.left="10vw";
       document.getElementById("resume-holder").style.top="16vw";
@@ -175,8 +176,10 @@ class NavBar extends React.Component {
     }
     // Projects page
     else if (window.location.pathname==="/projects") {
-      document.getElementById("in-mobile-format").innerText = "True";
-      document.getElementById("project-background").style.height="240vw";
+      if (document.getElementById("in-mobile-format").innerText === "False") {
+        document.getElementById("in-mobile-format").innerText = "True";
+        document.getElementById("project-background").style.height="240vw";
+      }
       document.getElementById("home-hint").style.display="none";
       document.getElementById("project-page-holder").style.left="2.5vw";
       // Adjust tag content
@@ -345,6 +348,7 @@ class NavBar extends React.Component {
     }
     else if (window.location.pathname==="/resume") {
       document.getElementsByClassName("home-background")[0].style.height="auto";
+      document.getElementById("home-hint").style.display="block";
       // Adjust resume content
       document.getElementById("resume-holder").style.left="33.3vw";
       document.getElementById("resume-holder").style.top="8vw";
@@ -365,8 +369,10 @@ class NavBar extends React.Component {
     }
     // Projects page
     else if (window.location.pathname==="/projects") {
-      document.getElementById("in-mobile-format").innerText = "False";
-      document.getElementById("project-background").style.height="60vw";
+      if (document.getElementById("in-mobile-format").innerText === "True") {
+        document.getElementById("in-mobile-format").innerText = "False";
+        document.getElementById("project-background").style.height="60vw";
+      }
       document.getElementById("home-hint").style.display="block";
       document.getElementById("project-page-holder").style.left="10vw";
       // Adjust tag content

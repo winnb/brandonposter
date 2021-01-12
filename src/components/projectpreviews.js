@@ -87,7 +87,7 @@ class ProjectPreviews extends React.Component {
           {/* Restaurateur Project Preview */}
           <a href="/restaurateur" className="preview-box" id="SQL,MySQL,Database,Data Integrity">
             <div className="preview-title">Restaurateur</div>
-            <img className="project-preview-img" src={SQL} alt="project preview"/>
+            <img className="project-preview-img-lg" src={SQL} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">Database</div>
               <div className="preview-tag-long">Data Integrity</div>

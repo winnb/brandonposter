@@ -44,18 +44,32 @@ class Tags extends React.Component {
     document.getElementById("project-preview-title").style.display="none";
 
     // Automatically adjust height of background to number of previews
-    if (document.getElementById("in-mobile-format").innerText==="False") {
-      if (document.getElementById("all-projects").scrollHeight>0)
-        document.getElementById("project-background").style.height = (1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight)).toString()+"px";
+    if (document.getElementById("in-mobile-format").innerText==="True") {
+      if (document.getElementById("all-projects").scrollHeight>0) {
+        //document.getElementById("project-background").style.height = (100+(1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight))).toString()+"px";
+        var totalHeight = 800;
+        var count = document.getElementsByClassName("preview-box").length;
+        for (var i=0; i<count; i++) {
+          if (document.getElementsByClassName("preview-box")[i].style.display==="block") {
+            totalHeight = totalHeight + document.getElementsByClassName("preview-box")[i].offsetHeight;
+          }
+        }
+        console.log("TotalHeight: "+totalHeight);
+        if (totalHeight>1300)
+          document.getElementById("project-background").style.height = (totalHeight).toString()+"px";
+        else
+          document.getElementById("project-background").style.height = "230vw";
+      }      
       else
-        document.getElementById("project-background").style.height = "60vw";
+        document.getElementById("project-background").style.height = "230vw";
     }
     else {
       if (document.getElementById("all-projects").scrollHeight>0)
-        document.getElementById("project-background").style.height = (60+1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight)).toString()+"px";
+        document.getElementById("project-background").style.height = ((1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight))).toString()+"px";
       else
-        document.getElementById("project-background").style.height = "240vw";
+        document.getElementById("project-background").style.height = "60vw";
     }
+    
   }
 
   render() {
