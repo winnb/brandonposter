@@ -11,13 +11,15 @@ import Apple from "../media/apple.png";
 import Bomber from "../media/bomber.png";
 import Doll from "../media/doll.png";
 import Bottle from "../media/bottle.png";
+import Plane from "../media/plane.png";
+import Burger from "../media/burger.png";
 
 class ColorBlocks extends React.Component {
   render() {
     return (
       <div id="color-blocks">
           {/* Row 1 */}
-          <a href="/Restaurateur" className="color-block yellow-block">
+          <a href="/restaurateur" className="color-block yellow-block">
             <img className="block-img" id="takeout" src={Takeout} alt="takeout"/>
             <div className="color-block-text-1">Restaurateur</div>
             <div className="color-block-text-1" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
@@ -80,17 +82,18 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-4" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-4" style={{marginTop: "4vw"}}>An Android food scanner app</div>
           </a>
-          <a href="/" className="color-block orange-block">
-            {/* <img className="block-img" id="pie" src={Pie} alt="pie" />
-            <div className="color-block-text-4">Divide and Conquer</div>
+          <a href="/grumble" className="color-block orange-block-2">
+            <img className="block-img" id="burger" src={Burger} alt="burger" />
+            <div className="color-block-text-4">Grumble</div>
             <div className="color-block-text-4" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
-            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A Java runtime optimization algorithm</div> */}
+            <div className="color-block-text-4" style={{marginTop: "4vw"}}>Spring Boot food microservices</div>
+            
           </a>
-          <a href="/" className="color-block red-block">
-            {/* <img className="block-img" id="apple" src={Apple} alt="apple" />
-            <div className="color-block-text-4">Ortega Time</div>
+          <a href="/trak" className="color-block red-block-2">
+            <img className="block-img-short" id="plane" src={Plane} alt="plane" />
+            <div className="color-block-text-4">Trak</div>
             <div className="color-block-text-4" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
-            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A React.js educational tool for distance learning</div> */}
+            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A React.js enterprise inventory management system</div>
           </a>
       </div>
     );

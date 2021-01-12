@@ -195,12 +195,15 @@
     color: black;
 }
 .github-button {
-    position: absolute;
-    top: 46vw;
-    left: 60vw;
+    // position: absolute;
+    // top: 46vw;
+    // left: 60vw;
+    margin-left: 44vw;
+    margin-top: -5vw;
+    height: 1.2vw;
     width: 7vw;
     background-color: rgb(40,40,40);
-    margin: 1vw;
+    //margin: 1vw;
     text-align: center;
     padding-top: 0.25vw;
     padding-bottom: 0.25vw;

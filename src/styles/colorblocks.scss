@@ -132,6 +132,28 @@
         transition-duration: 0.3s;
     }
 }
+.orange-block-2 {
+    width: 33.33vw;
+    height: 28.125vw;
+    background-color: rgb(255, 123, 15);
+}
+.orange-block-2:hover {
+    #burger {
+        transform: scale(1.25);
+        transition-duration: 0.3s;
+    }
+}
+.red-block-2 {
+    width: 33.33vw;
+    height: 28.125vw;
+    background-color: rgb(234, 66, 53);
+}
+.red-block-2:hover {
+    #plane {
+        transform: scale(1.25);
+        transition-duration: 0.3s;
+    }
+}
 .block-img {
     width: 10vw;
     margin: 10vw;
@@ -146,7 +168,13 @@
 .block-img-tall {
     width: 8vw;
     margin-left: 12vw;
-    margin-top: 7.5vw;
+    margin-top: 7vw;
+    filter: drop-shadow(0vw 2vw 3vw rgb(50,50,50));
+}
+.block-img-short {
+    width: 13vw;
+    margin-left: 9.5vw;
+    margin-top: 10vw;
     filter: drop-shadow(0vw 2vw 3vw rgb(50,50,50));
 }
 .color-block-text-1 {

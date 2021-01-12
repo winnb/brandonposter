@@ -20,6 +20,7 @@ class Alexandria extends React.Component {
                 <a href="/projects" className="tag">ASP.NET Core</a>
                 <a href="/projects" className="tag">C#</a>
                 <a href="/projects" className="tag">MVC</a>
+                <a href="/projects" className="tag">Postman</a>
                 <a href="/projects" className="tag">REST API</a>
                 <a href="/projects" className="tag">WCF</a>
                 <a href="/projects" className="tag">Web API</a>

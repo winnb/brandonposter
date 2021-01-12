@@ -11,6 +11,8 @@ import Ortega from "../media/ortega-time-preview.jpg";
 import DDoS from "../media/ddos-title.jpg";
 import Generic from "../media/generic-sort.jpg";
 import Belly from "../media/healthybelly-preview.jpg";
+import Trak from "../media/trak-preview.jpg";
+import Microservices from "../media/grumble-microservices.jpg";
 
 class ProjectPreviews extends React.Component {
 
@@ -18,14 +20,15 @@ class ProjectPreviews extends React.Component {
     return (
         <div id="all-projects">
           {/* Alexandria Project Preview */}
-          <a href="/alexandria" className="preview-box" id="C#,ASP.NET Core,WCF,Web Service,MVC,Web API,REST API">
+          <a href="/alexandria" className="preview-box" id="C#,ASP.NET Core,WCF,Web Service,MVC,Web API,REST API,Postman">
             <div>Alexandria</div>
             <img className="project-preview-img-lg" style={{filter: "invert(0.85)"}} src={Alexandria} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">ASP.NET Core</div>
               <div className="preview-tag">C#</div>
               <div className="preview-tag">MVC</div>
-              <div className="preview-tag">REST API</div>
+              <div className="preview-tag-long">Postman</div>
+              <div className="preview-tag-long">REST API</div>
               <div className="preview-tag">WCF</div>
               <div className="preview-tag-long">Web API</div>
               <div className="preview-tag-long">Web Service</div>
@@ -148,6 +151,42 @@ class ProjectPreviews extends React.Component {
               <div className="preview-tag-long">Kotlin</div>
               <div className="preview-tag">NoSQL</div>
               <div className="preview-tag">SCRUM</div>
+            </div>
+          </a>
+          {/* Trak Project Preview */}
+          <a href="/trak" className="preview-box" id="Agile,Azure,CSS,Git,HTML,JavaScript,PowerShell,React.js,SCRUM,Web Design,Web Service">
+            <div>Trak</div>
+            <img className="project-preview-img-lg" src={Trak} alt="project preview"/>
+            <div className="box-tag-holder">
+              <div className="preview-tag">Agile</div>
+              <div className="preview-tag-long">Azure</div>
+              <div className="preview-tag-long">CSS</div>
+              <div className="preview-tag">Git</div>
+              <div className="preview-tag">HTML</div>
+              <div className="preview-tag-long">JavaScript</div>
+              <div className="preview-tag-long">PowerShell</div>
+              <div className="preview-tag">React.js</div>
+              <div className="preview-tag">SCRUM</div>
+              <div className="preview-tag-long">Web Design</div>
+              <div className="preview-tag-long">Web Service</div>
+            </div>
+          </a>
+          {/* Grumble Project Preview */}
+          <a href="/grumble" className="preview-box" id="Distributed Networks,Git,Java,Maven,Microservices,MVC,Postman,PowerShell,SpringBoot,REST API,Web Service">
+            <div>Grumble</div>
+            <img className="project-preview-img-lg" src={Microservices} alt="project preview"/>
+            <div className="box-tag-holder">
+              <div className="preview-tag-xl">Distributed Networks</div>
+              <div className="preview-tag">Git</div>
+              <div className="preview-tag">Java</div>
+              <div className="preview-tag">Maven</div>
+              <div className="preview-tag-long">Microservices</div>
+              <div className="preview-tag">MVC</div>
+              <div className="preview-tag-long">Postman</div>
+              <div className="preview-tag-long">PowerShell</div>
+              <div className="preview-tag-long">SpringBoot</div>
+              <div className="preview-tag-long">REST API</div>
+              <div className="preview-tag-long">Web Service</div>
             </div>
           </a>
         </div>

@@ -57,6 +57,7 @@ class Tags extends React.Component {
           <div className="long-tag" id="Algorithm" onClick={()=>this.selectTag("Algorithm")}>Algorithm</div>
           <div className="long-tag" id="Android" onClick={()=>this.selectTag("Android")}>Android</div>
           <div className="long-tag" id="ASP.NET Core" onClick={()=>this.selectTag("ASP.NET Core")}>ASP.NET Core</div>
+          <div className="long-tag" id="Azure" onClick={()=>this.selectTag("Azure")}>Azure</div>
           <div className="long-tag" id="Bash" onClick={()=>this.selectTag("Bash")}>Bash</div>
           <div className="long-tag" id="Big Data" onClick={()=>this.selectTag("Big Data")}>Big Data</div>
           <div className="long-tag" id="Cloud Computing" onClick={()=>this.selectTag("Cloud Computing")}>Cloud Computing</div>
@@ -78,15 +79,19 @@ class Tags extends React.Component {
           <div className="long-tag" id="JavaScript" onClick={()=>this.selectTag("JavaScript")}>JavaScript</div>
           <div className="long-tag" id="Kotlin" onClick={()=>this.selectTag("Kotlin")}>Kotlin</div>
           <div className="long-tag" id="Machine Learning" onClick={()=>this.selectTag("Machine Learning")}>Machine Learning</div>
+          <div className="long-tag" id="Maven" onClick={()=>this.selectTag("Maven")}>Maven</div>
+          <div className="long-tag" id="Microservices" onClick={()=>this.selectTag("Microservices")}>Microservices</div>
           <div className="long-tag" id="MVC" onClick={()=>this.selectTag("MVC")}>MVC</div>
           <div className="long-tag" id="MySQL" onClick={()=>this.selectTag("MySQL")}>MySQL</div>
           <div className="long-tag" id="NoSQL" onClick={()=>this.selectTag("NoSQL")}>NoSQL</div>
           <div className="long-tag" id="Optimization" onClick={()=>this.selectTag("Optimization")}>Optimization</div>
+          <div className="long-tag" id="Postman" onClick={()=>this.selectTag("Postman")}>Postman</div>
           <div className="long-tag" id="PowerShell" onClick={()=>this.selectTag("PowerShell")}>PowerShell</div>
           <div className="long-tag" id="Python" onClick={()=>this.selectTag("Python")}>Python</div>
           <div className="long-tag" id="React.js" onClick={()=>this.selectTag("React.js")}>React.js</div>
           <div className="long-tag" id="REST API" onClick={()=>this.selectTag("REST API")}>REST API</div>
           <div className="long-tag" id="SCRUM" onClick={()=>this.selectTag("SCRUM")}>SCRUM</div>
+          <div className="long-tag" id="SpringBoot" onClick={()=>this.selectTag("SpringBoot")}>SpringBoot</div>
           <div className="long-tag" id="SQL" onClick={()=>this.selectTag("SQL")}>SQL</div>
           <div className="long-tag" id="Statistical Analysis" onClick={()=>this.selectTag("Statistical Analysis")}>Statistical Analysis</div>
           <div className="long-tag" id="Tensor Flow" onClick={()=>this.selectTag("Tensor Flow")}>Tensor Flow</div>

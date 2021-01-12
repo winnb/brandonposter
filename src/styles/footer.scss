@@ -3,10 +3,11 @@
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
-    height: 8vw;
+    height: 8.5vw;
     width: 100vw;
     background-color: black;
     z-index: 1;
+    //margin-top: -0.2vw;
 }
 #footer-block {
     font-size: 0.75vw;

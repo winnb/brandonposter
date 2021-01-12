@@ -15,6 +15,8 @@ import OrtegaTime from "./pages/ortegatime";
 import DDoS from "./pages/ddos";
 import Shuffle from "./pages/shuffle";
 import HealthyBelly from "./pages/healthybelly";
+import Trak from "./pages/trak";
+import Grumble from "./pages/grumble";
 import PageNotFound from "./pages/pagenotfound";
 
 // Components
@@ -24,14 +26,14 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div className="App">
-          <div>
+          <div id="page-contents" style={{marginBottom: "-1vw"}}>
             <Navbar />
             <Router>
               <Home path="/" />
               <Projects path="/projects" />
               <Resume path="/resume" />
               <Pooch path="/pooch" />
-              <Restaurateur path="/Restaurateur" />
+              <Restaurateur path="/restaurateur" />
               <Divide path="/divide+conquer" />
               <Confidence path="/confidence+limits" />
               <Alexandria path="/alexandria" />
@@ -40,6 +42,8 @@ function App() {
               <DDoS path="/ddos" />
               <Shuffle path="/shuffle" />
               <HealthyBelly path="/healthy+belly" />
+              <Trak path="/trak" />
+              <Grumble path="/grumble" />
               <PageNotFound path="/page-not-found" default />
             </Router>
           </div>
