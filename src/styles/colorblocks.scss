@@ -8,12 +8,15 @@
     height: 112.5vw;
     background-color: white;
 }
+.color-block {
+    width: 33.33vw;
+    height: 28.125vw; 
+}
 .color-block:hover {
     background-color: rgb(40, 40, 40);
 }
 .red-block {
-    width: 33.33vw;
-    height: 28.125vw;
+    
     background-color: rgb(234, 66, 53);
 }
 .red-block:hover {
@@ -23,9 +26,7 @@
     }
 }
 .orange-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(255, 123, 15);
+        background-color: rgb(255, 123, 15);
 }
 .orange-block:hover {
     #pie {
@@ -34,9 +35,7 @@
     }
 }
 .yellow-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(255, 196, 25);
+        background-color: rgb(255, 196, 25);
 }
 .yellow-block:hover {
     #takeout {
@@ -45,9 +44,7 @@
     }
 }
 .green-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(117, 189, 64);
+        background-color: rgb(117, 189, 64);
 }
 .green-block:hover {
     #puppy {
@@ -56,9 +53,7 @@
     }
 }
 .blue-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(1,146,255);
+        background-color: rgb(1,146,255);
 }
 .blue-block:hover {
     #brain {
@@ -67,9 +62,7 @@
     }
 }
 .purple-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(125, 66, 151);
+        background-color: rgb(125, 66, 151);
 }
 .purple-block:hover {
     #book {
@@ -78,9 +71,7 @@
     }
 }
 .turquoise-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(0, 255, 169);
+        background-color: rgb(0, 255, 169);
 }
 .turquoise-block:hover {
     #apple {
@@ -89,9 +80,7 @@
     }
 }
 .lime-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(230, 239, 47);
+        background-color: rgb(230, 239, 47);
 }
 .lime-block:hover {
     #doll {
@@ -100,9 +89,7 @@
     }
 }
 .pink-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(225, 102, 147);
+        background-color: rgb(225, 102, 147);
 }
 .pink-block:hover {
     #visualizer {
@@ -111,9 +98,7 @@
     }
 }
 .sapphire-block {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(38, 81, 239);
+        background-color: rgb(38, 81, 239);
 }
 .sapphire-block:hover {
     #bomber {
@@ -122,9 +107,7 @@
     }
 }
 .yellow-block-2 {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(255, 196, 25);
+        background-color: rgb(255, 196, 25);
 }
 .yellow-block-2:hover {
     #bottle {
@@ -133,9 +116,7 @@
     }
 }
 .orange-block-2 {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(255, 123, 15);
+        background-color: rgb(255, 123, 15);
 }
 .orange-block-2:hover {
     #burger {
@@ -144,9 +125,7 @@
     }
 }
 .red-block-2 {
-    width: 33.33vw;
-    height: 28.125vw;
-    background-color: rgb(234, 66, 53);
+        background-color: rgb(234, 66, 53);
 }
 .red-block-2:hover {
     #plane {
@@ -156,7 +135,8 @@
 }
 .block-img {
     width: 10vw;
-    margin: 10vw;
+    margin-left: 10vw;
+    margin-top: 10vw;
     filter: drop-shadow(0vw 2vw 3vw rgb(50,50,50));
 }
 .block-img-lg {

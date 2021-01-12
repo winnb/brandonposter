@@ -13,7 +13,7 @@
     top: 12vw;
     left: 25vw;
     width: 50vw;
-    height: 40vw;
+    height: 41vw;
     background-color: white;
     border-radius: 1vw;
     box-shadow: 0vw 0.25vw 0.25vw rgb(100,100,100);
@@ -40,12 +40,14 @@
     margin-left: 30%;
     margin-top: -7.5%;
 }
-#linkedin {
+#linkedin-holder {
     position: absolute;
     top: 24.5vw;
-    width: 2.5vw;
     left: 53.5vw;
     z-index: 1;
+}
+#linkedin { 
+    width: 2.5vw;
 }
 #linkedin:hover {
     cursor: pointer;

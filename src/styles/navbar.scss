@@ -125,3 +125,15 @@
 #about-img {
     width: 8vw;
 }
+#nav-icon-holder {
+    position: absolute;
+    top: 2.5vw;
+    left: 72vw;
+    display: flex;
+    flex-direction: row;
+}
+.nav-icon {
+    width: 4vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}

@@ -35,9 +35,11 @@ class Home extends React.Component {
             <div><b>Organization:</b> Association for Computing Machinery, Title: Logistics Officer, 8/2018 - 5/2019</div>
             <div>Helped coordinate Beach Hacks 2019 CSULB hackathon. Learned organizational skills, problem solving, and time management.</div> 
         </div> */}
-        <object id="resume-holder" data={Resume} type="application/pdf">
-            <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
-        </object>
+        <div id="resume-holder">
+          <object id="resume" data={Resume} type="application/pdf">
+              <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
+          </object>
+        </div>
     </div>
     );
   };

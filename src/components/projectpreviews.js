@@ -21,7 +21,7 @@ class ProjectPreviews extends React.Component {
         <div id="all-projects">
           {/* Alexandria Project Preview */}
           <a href="/alexandria" className="preview-box" id="C#,ASP.NET Core,WCF,Web Service,MVC,Web API,REST API,Postman">
-            <div>Alexandria</div>
+            <div className="preview-title">Alexandria</div>
             <img className="project-preview-img-lg" style={{filter: "invert(0.85)"}} src={Alexandria} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">ASP.NET Core</div>
@@ -36,7 +36,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Confidence Interval Project Preview */}
           <a href="/confidence+limits" className="preview-box" id="Python,Data Visualization,Statistical Analysis">
-            <div>Confidence Limits</div>
+            <div className="preview-title">Confidence Limits</div>
             <img className="project-preview-img-lg" src={Outliers} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-xl">Data Visualization</div>
@@ -46,7 +46,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Divide & Conquer Project Preview */}
           <a href="/divide+conquer" className="preview-box" id="Java,Algorithm,Optimization">
-            <div>Divide & Conquer</div>
+            <div className="preview-title">Divide & Conquer</div>
             <img className="project-preview-img-lg" src={Divide} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">Algorithm</div>
@@ -56,7 +56,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Maternal Project Preview */}
           <a href="/maternal" className="preview-box" id="Machine Learning,Tensor Flow,GCP,Big Data,Cloud Computing">
-            <div>Maternal</div>
+            <div className="preview-title">Maternal</div>
             <img className="project-preview-img-lg" src={Maternal} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">Big Data</div>
@@ -68,7 +68,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Pooch Project Preview */}
           <a href="/pooch" className="preview-box" id="React.js,Web Service,JavaScript,HTML,CSS,Firebase,Git,Agile,SCRUM,Web Design,PowerShell">
-            <div>Pooch</div>
+            <div className="preview-title">Pooch</div>
             <img className="project-preview-img-lg" src={Pooch} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag">Agile</div>
@@ -86,7 +86,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Restaurateur Project Preview */}
           <a href="/restaurateur" className="preview-box" id="SQL,MySQL,Database,Data Integrity">
-            <div>Restaurateur</div>
+            <div className="preview-title">Restaurateur</div>
             <img className="project-preview-img" src={SQL} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">Database</div>
@@ -97,7 +97,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Ortega Time Project Preview */}
           <a href="/ortega+time" className="preview-box" id="CSS,Firebase,Git,HTML,JavaScript,React.js,Web Design,Web Service,PowerShell">
-            <div>Ortega Time</div>
+            <div className="preview-title">Ortega Time</div>
             <img className="project-preview-img-lg" src={Ortega} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag">CSS</div>
@@ -113,7 +113,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Generic Sort Project Preview */}
           <a href="/shuffle" className="preview-box" id="Algorithm,C++,Optimization">
-            <div>Shuffle</div>
+            <div className="preview-title">Shuffle</div>
             <img className="project-preview-img-lg" src={Generic} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-long">Algorithm</div>
@@ -123,7 +123,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* DDoS Project Preview */}
           <a href="/ddos" className="preview-box" id="Cyber Security,Data Integrity,Distributed Networks,Denial of Service,Firebase,Java,Virtual Machine,Bash">
-            <div>Website Killer</div>
+            <div className="preview-title">Website Killer</div>
             <img className="project-preview-img-lg" src={DDoS} alt="project preview"/>
             <div className="box-tag-holder">
             <div className="preview-tag">Bash</div>
@@ -138,7 +138,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Healthy Belly Project Preview */}
           <a href="/healthy+belly" className="preview-box" id="Agile,Android,Database,Firebase,Gradle,Java,Kotlin,NoSQL,SCRUM">
-            <div>Healthy Belly</div>
+            <div className="preview-title">Healthy Belly</div>
             <img className="project-preview-img-lg" src={Belly} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag">Agile</div>
@@ -154,7 +154,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Trak Project Preview */}
           <a href="/trak" className="preview-box" id="Agile,Azure,CSS,Git,HTML,JavaScript,PowerShell,React.js,SCRUM,Web Design,Web Service">
-            <div>Trak</div>
+            <div className="preview-title">Trak</div>
             <img className="project-preview-img-lg" src={Trak} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag">Agile</div>
@@ -172,7 +172,7 @@ class ProjectPreviews extends React.Component {
           </a>
           {/* Grumble Project Preview */}
           <a href="/grumble" className="preview-box" id="Distributed Networks,Git,Java,Maven,Microservices,MVC,Postman,PowerShell,SpringBoot,REST API,Web Service">
-            <div>Grumble</div>
+            <div className="preview-title">Grumble</div>
             <img className="project-preview-img-lg" src={Microservices} alt="project preview"/>
             <div className="box-tag-holder">
               <div className="preview-tag-xl">Distributed Networks</div>

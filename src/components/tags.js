@@ -43,11 +43,19 @@ class Tags extends React.Component {
     else
     document.getElementById("project-preview-title").style.display="none";
 
-    //
-    if (document.getElementById("all-projects").scrollHeight>0)
-      document.getElementById("project-background").style.height = (1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight)).toString()+"px";
-    else
-      document.getElementById("project-background").style.height = "60vw";
+    // Automatically adjust height of background to number of previews
+    if (document.getElementById("in-mobile-format").innerText==="False") {
+      if (document.getElementById("all-projects").scrollHeight>0)
+        document.getElementById("project-background").style.height = (1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight)).toString()+"px";
+      else
+        document.getElementById("project-background").style.height = "60vw";
+    }
+    else {
+      if (document.getElementById("all-projects").scrollHeight>0)
+        document.getElementById("project-background").style.height = (60+1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight)).toString()+"px";
+      else
+        document.getElementById("project-background").style.height = "240vw";
+    }
   }
 
   render() {

@@ -20,6 +20,7 @@ class Projects extends React.Component {
           <div id="project-preview-title">Matching Projects</div>
           <ProjectPreviews/>
         </div>
+        <div id="in-mobile-format" style={{display: "none"}}>False</div>
       </div>
     );
   };
