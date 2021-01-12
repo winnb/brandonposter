@@ -164,13 +164,13 @@ class NavBar extends React.Component {
       document.getElementById("resume").style.width="80vw";
       document.getElementById("resume").style.height="106.8vw";
       document.getElementById("resume").data = document.getElementById("resume").data;
-      document.getElementById("resume-contents").style.left="10vw";
+      document.getElementById("resume-contents").style.left="0vw";
       document.getElementById("resume-contents").style.width="80vw";
       document.getElementById("resume-contents").style.fontSize="1.625vw";
-      document.getElementsByClassName("name").style.fontSize="3.75vw";
+      document.getElementsByClassName("name")[0].style.fontSize="3.75vw";
       count = document.getElementsByTagName("b").length;
       for (var i=0; i<count; i++)
-        document.getElementsByTagName("b")[i].style.fontSizw="1.875vw";
+        document.getElementsByTagName("b")[i].style.fontSize="1.875vw";
       // Adjust footer content
       document.getElementById("footer").style.height="20vw";
       // Adjust navbar content
