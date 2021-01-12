@@ -47,7 +47,7 @@ class Tags extends React.Component {
     if (document.getElementById("in-mobile-format").innerText==="True") {
       if (document.getElementById("all-projects").scrollHeight>0) {
         //document.getElementById("project-background").style.height = (100+(1.15*(document.getElementById("all-projects").offsetTop+document.getElementById("all-projects").scrollHeight))).toString()+"px";
-        var totalHeight = 800;
+        var totalHeight = 500+document.getElementById("all-tags").offsetHeight;
         var count = document.getElementsByClassName("preview-box").length;
         for (var i=0; i<count; i++) {
           if (document.getElementsByClassName("preview-box")[i].style.display==="block") {

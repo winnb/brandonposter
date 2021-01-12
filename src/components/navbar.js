@@ -194,11 +194,15 @@ class NavBar extends React.Component {
       document.getElementsByClassName("tag-subtitle")[0].style.width="100vw";
       document.getElementsByClassName("tag-title")[0].style.fontSize="8vw";
       document.getElementsByClassName("tag-subtitle")[0].style.fontSize="2vw";
-      document.getElementById("all-tags").style.fontSize="2vw";
+      document.getElementById("all-tags").style.fontSize="2.75vw";
       document.getElementById("all-tags").style.width="95vw";
       count = document.getElementsByClassName("long-tag").length;
-      for (var i=0; i<count; i++)
-        document.getElementsByClassName("long-tag")[i].style.width="21vw";
+      for (var i=0; i<count; i++) {
+        document.getElementsByClassName("long-tag")[i].style.width="28vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingTop="0.75vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingBottom="0.75vw";
+        document.getElementsByClassName("long-tag")[i].style.margin="1.5vw";
+      }
       // Adjust preview content
       document.getElementById("project-preview-title").style.width="100vw";
       document.getElementById("all-projects").style.width="95vw";
@@ -397,8 +401,12 @@ class NavBar extends React.Component {
       document.getElementById("all-tags").style.fontSize="1vw";
       document.getElementById("all-tags").style.width="80vw";
       count = document.getElementsByClassName("long-tag").length;
-      for (var i=0; i<count; i++)
+      for (var i=0; i<count; i++) {
         document.getElementsByClassName("long-tag")[i].style.width="10.5vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingTop="0.25vw";
+        document.getElementsByClassName("long-tag")[i].style.paddingBottom="0.25vw";
+        document.getElementsByClassName("long-tag")[i].style.margin="1vw";
+      }
       // Adjust preview content
       document.getElementById("project-preview-title").style.width="80vw";
       document.getElementById("all-projects").style.width="80vw";

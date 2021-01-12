@@ -67,7 +67,7 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* Pooch Project Preview */}
-          <a href="/pooch" className="preview-box" id="React.js,Web Service,JavaScript,HTML,CSS,Firebase,Git,Agile,SCRUM,Web Design,PowerShell">
+          <a href="/pooch" className="preview-box" id="React.js,Web Service,JavaScript,HTML,CSS,Firebase,Git,Agile,SCRUM,Web Design,PowerShell,NoSQL">
             <div className="preview-title">Pooch</div>
             <img className="project-preview-img-lg" src={Pooch} alt="project preview"/>
             <div className="box-tag-holder">
@@ -77,6 +77,7 @@ class ProjectPreviews extends React.Component {
               <div className="preview-tag">Git</div>
               <div className="preview-tag-long">HTML</div>
               <div className="preview-tag-long">JavaScript</div>
+              <div className="preview-tag-long">NoSQL</div>
               <div className="preview-tag-long">PowerShell</div>
               <div className="preview-tag-long">React.js</div>
               <div className="preview-tag-long">SCRUM</div>
@@ -153,7 +154,7 @@ class ProjectPreviews extends React.Component {
             </div>
           </a>
           {/* Trak Project Preview */}
-          <a href="/trak" className="preview-box" id="Agile,Azure,CSS,Git,HTML,JavaScript,PowerShell,React.js,SCRUM,Web Design,Web Service">
+          <a href="/trak" className="preview-box" id="Agile,Azure,CSS,Git,HTML,JavaScript,NoSQL,PowerShell,React.js,SCRUM,Web Design,Web Service">
             <div className="preview-title">Trak</div>
             <img className="project-preview-img-lg" src={Trak} alt="project preview"/>
             <div className="box-tag-holder">
@@ -163,6 +164,7 @@ class ProjectPreviews extends React.Component {
               <div className="preview-tag">Git</div>
               <div className="preview-tag">HTML</div>
               <div className="preview-tag-long">JavaScript</div>
+              <div className="preview-tag-long">NoSQL</div>
               <div className="preview-tag-long">PowerShell</div>
               <div className="preview-tag">React.js</div>
               <div className="preview-tag">SCRUM</div>

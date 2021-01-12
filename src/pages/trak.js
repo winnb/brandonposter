@@ -22,6 +22,7 @@ class Trak extends React.Component {
                 <a href="/projects" className="tag">Git</a>
                 <a href="/projects" className="tag">HTML</a>
                 <a href="/projects" className="tag">JavaScript</a>
+                <a href="/projects" className="tag">NoSQL</a>
                 <a href="/projects" className="tag">PowerShell</a>
                 <a href="/projects" className="tag">React.js</a>
                 <a href="/projects" className="tag">SCRUM</a>
