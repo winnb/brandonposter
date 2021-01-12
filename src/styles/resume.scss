@@ -50,3 +50,28 @@ b {
     width: 33.3vw;
     height: 44.5vw;
 }
+#download-holder {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 70vw;
+    
+}
+#resume-download {
+    //width: 20vw;
+    margin-left: 30vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: white;
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(185,185,185);
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'Castoro', serif;
+    border-radius: 1vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(150,150,150);
+    box-shadow: 0.2vw 0.2vw 0vw rgb(150,150,150);
+}

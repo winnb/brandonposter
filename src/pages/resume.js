@@ -37,8 +37,9 @@ class Home extends React.Component {
                 <div><b>Organization:</b> Association for Computing Machinery, Title: Logistics Officer, 8/2018 - 5/2019</div>
                 <div>Helped coordinate Beach Hacks 2019 CSULB hackathon. Learned organizational skills, problem solving, and time management.</div> 
             </div>
-            <a id="resume-download" href={Resume} style={{fontSize: "2vw"}} download>Download Resume</a>
+            <div id="download-holder"><a id="resume-download" href={Resume} download>Download Resume</a></div>
           </object>
+          
         </div>
     </div>
     );
