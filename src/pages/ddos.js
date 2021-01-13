@@ -34,7 +34,7 @@ class DDoS extends React.Component {
                 to which collected the IP address of potential victims. I used Low Orbit Ion Cannon in a VM 
                 to send a huge volume of packets which overwhelmed the victim.
                 </div>
-                <a href="/" className="github-button" style={{opacity: "0%"}}>See Github</a>
+                <a href="/" className="github-button" style={{opacity: "0%"}}></a>
             </div>
             </div>
    

@@ -62,6 +62,7 @@ class NavBar extends React.Component {
         document.getElementsByClassName("block-img")[i].style.width="30vw";
         document.getElementsByClassName("block-img")[i].style.marginLeft="33vw";
         document.getElementsByClassName("block-img")[i].style.marginTop="25vw";
+        document.getElementsByClassName("block-img")[i].style.marginBottom="10vw";
       }
       count = document.getElementsByClassName("block-img-tall").length;
       for (var i=0; i<count; i++) {
@@ -326,7 +327,8 @@ class NavBar extends React.Component {
       for (var i=0; i<count; i++) {
         document.getElementsByClassName("block-img")[i].style.width="10vw";
         document.getElementsByClassName("block-img")[i].style.marginLeft="10vw";
-        document.getElementsByClassName("block-img")[i].style.marginTop="10vw";
+        document.getElementsByClassName("block-img")[i].style.marginTop="8vw";
+        document.getElementsByClassName("block-img")[i].style.marginBottom="0vw";
       }
       count = document.getElementsByClassName("block-img-tall").length;
       for (var i=0; i<count; i++) {
