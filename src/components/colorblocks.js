@@ -26,11 +26,11 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-1 color-block-lines" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-1" style={{marginTop: "4vw"}}>A SQL database for managing a small business</div>
           </a>
-          <a href="/divide+conquer" className="color-block orange-block">
-            <img className="block-img" id="pie" src={Pie} alt="pie" />
-            <div className="color-block-text-1">Divide and Conquer</div>
+          <a href="/grumble" className="color-block orange-block">
+            <img className="block-img" id="burger" src={Burger} alt="burger" />
+            <div className="color-block-text-1">Grumble</div>
             <div className="color-block-text-1 color-block-lines" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
-            <div className="color-block-text-1" style={{marginTop: "4vw"}}>A Java runtime optimization algorithm</div>
+            <div className="color-block-text-1" style={{marginTop: "4vw"}}>A Java Spring Boot food microservice</div>
           </a>
           <a href="/ortega+time" className="color-block red-block">
             <img className="block-img" id="apple" src={Apple} alt="apple" />
@@ -83,12 +83,11 @@ class ColorBlocks extends React.Component {
             <div className="color-block-text-4 color-block-lines" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
             <div className="color-block-text-4" style={{marginTop: "4vw"}}>An Android food scanner app</div>
           </a>
-          <a href="/grumble" className="color-block orange-block-2">
-            <img className="block-img" id="burger" src={Burger} alt="burger" />
-            <div className="color-block-text-4">Grumble</div>
+          <a href="/divide+conquer" className="color-block orange-block-2">
+            <img className="block-img" id="pie" src={Pie} alt="pie" />
+            <div className="color-block-text-4">Divide and Conquer</div>
             <div className="color-block-text-4 color-block-lines" style={{marginTop: "2vw", letterSpacing:"-0.2vw"}}>——————————————————————————</div>
-            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A Java Spring Boot food microservice</div>
-            
+            <div className="color-block-text-4" style={{marginTop: "4vw"}}>A Java runtime optimization algorithm</div>
           </a>
           <a href="/trak" className="color-block red-block-2">
             <img className="block-img-short" id="plane" src={Plane} alt="plane" />
