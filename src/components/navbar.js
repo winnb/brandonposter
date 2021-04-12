@@ -182,6 +182,20 @@ class NavBar extends React.Component {
       document.getElementById("nav-menu").style.display="none";
       document.getElementById("nav-icon-holder").style.display="block";
     }
+    // Personal Recommendations page
+    else if (window.location.pathname==="/personal-recommendations" || window.location.pathname==="/certificates") {
+      document.getElementsByClassName("home-background")[0].style.height="240vw";
+      document.getElementById("home-hint").style.display="none";
+      // Adjust footer content
+      document.getElementById("footer").style.height="20vw";
+      // Adjust navbar content
+      document.getElementById("portfolio-logo").style.fontSize="5vw";
+      document.getElementById("portfolio-logo").style.left="6vw";
+      document.getElementById("bw").style.width="6vw";
+      document.getElementById("menu-button").style.display="none";
+      document.getElementById("nav-menu").style.display="none";
+      document.getElementById("nav-icon-holder").style.display="block";
+    }
     // Projects page
     else if (window.location.pathname==="/projects") {
       if (document.getElementById("in-mobile-format").innerText === "False") {
@@ -447,6 +461,34 @@ class NavBar extends React.Component {
       document.getElementById("nav-menu").style.display="block";
       document.getElementById("nav-icon-holder").style.display="none"; 
     }
+    // Personal Recommendations
+    else if (window.location.pathname==="/personal-recommendations") {
+      document.getElementsByClassName("home-background")[0].style.height="180vh";
+      document.getElementById("home-hint").style.display="block";
+      // Adjust footer content
+      document.getElementById("footer").style.height="8.5vw";
+      // Adjust navbar content
+      document.getElementById("portfolio-logo").style.fontSize="2.5vw";
+      document.getElementById("portfolio-logo").style.left="12vw";
+      document.getElementById("bw").style.width="3.5vw";
+      document.getElementById("menu-button").style.display="block";
+      document.getElementById("nav-menu").style.display="block";
+      document.getElementById("nav-icon-holder").style.display="none"; 
+    }
+    // Certificates
+    else if (window.location.pathname==="/personal-recommendations" || window.location.pathname==="/certificates") {
+      document.getElementsByClassName("home-background")[0].style.height="165vh";
+      document.getElementById("home-hint").style.display="block";
+      // Adjust footer content
+      document.getElementById("footer").style.height="8.5vw";
+      // Adjust navbar content
+      document.getElementById("portfolio-logo").style.fontSize="2.5vw";
+      document.getElementById("portfolio-logo").style.left="12vw";
+      document.getElementById("bw").style.width="3.5vw";
+      document.getElementById("menu-button").style.display="block";
+      document.getElementById("nav-menu").style.display="block";
+      document.getElementById("nav-icon-holder").style.display="none"; 
+    }
     // Projects page
     else if (window.location.pathname==="/projects") {
       if (document.getElementById("in-mobile-format").innerText === "True") {
@@ -620,6 +662,8 @@ class NavBar extends React.Component {
             <div id="nav-home" className="nav-item"><a href="/" className="nav-link">Home</a></div>
             <div id="nav-projects" className="nav-item"><a href="/projects" className="nav-link">Projects</a></div>
             <div id="nav-resume" className="nav-item"><a href="/resume" className="nav-link">Resume</a></div>
+            <div id="nav-letters" className="nav-item"><a href="/personal-recommendations" className="nav-link">Personal Recommendations</a></div>
+            <div id="nav-certificates" className="nav-item"><a href="/certificates" className="nav-link">Certificates</a></div>
           </div>
         </nav>
     );
